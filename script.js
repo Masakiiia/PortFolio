@@ -102,11 +102,11 @@ generateSecondCarousel();
 
 
 // ====================================================================================
-// 3. VEILLE TECHNOLOGIQUE (GOOGLE APPS SCRIPT API)
+// 3. VEILLE TECHNOLOGIQUE (JSON LOCAL VIA GITHUB ACTIONS)
 // ====================================================================================
 
-// COLLE TA NOUVELLE URL DE DÉPLOIEMENT ICI :
-const VEILLE_API_URL = "https://script.google.com/macros/s/AKfycbzoF7w0Pl2tyvbUsoIoaBeyOJ4gADFOLPwEDLKVlfnbTyP0VdVtqa2Af_YPtp5RwzJ9/exec"; 
+// On pointe vers le fichier local qui sera généré dans ton repo
+const VEILLE_JSON_PATH = "./data/articles.json"; 
 
 const veilleContainer = document.getElementById('veille-container-dynamique');
 const veilleLoader = document.getElementById('veille-loader');
@@ -115,13 +115,13 @@ async function chargerVeilleDynamique() {
     if (!veilleContainer) return;
 
     try {
-        const response = await fetch(VEILLE_API_URL);
+        // On récupère le fichier JSON local
+        const response = await fetch(VEILLE_JSON_PATH);
         
-        if (!response.ok) throw new Error(`Erreur HTTP: ${response.status}`);
+        if (!response.ok) throw new Error(`Fichier non trouvé (en attente de la 1ère synchro)`);
         
         const articles = await response.json();
         
-        // Masquer le loader
         if (veilleLoader) veilleLoader.style.display = 'none';
         veilleContainer.innerHTML = ''; 
 
@@ -130,24 +130,29 @@ async function chargerVeilleDynamique() {
             return;
         }
 
-        articles.forEach(article => {
-            // Nettoyage de la date (format Google Sheet parfois brut)
-            let dateAffichee = new Date(article.date).toLocaleDateString("fr-FR");
+        // On affiche les articles (on prend les 10 derniers par exemple)
+        articles.slice(0, 10).forEach(article => {
+            // Adaptation des noms de champs selon ton export Notion
+            const titre = article.Titre || "Sans titre";
+            const url = article.URL || "#";
+            const analyse = article.Resume || "Analyse en cours...";
+            const theme = article.Theme || "Tech";
+            const dateRaw = article.Date || new Date();
+            let dateAffichee = new Date(dateRaw).toLocaleDateString("fr-FR");
 
             const card = document.createElement('div');
-            card.className = 'veille-card'; // Utilise className c'est plus propre
+            card.className = 'veille-card';
             
-            // On ajoute une classe spécifique selon le thème pour la couleur (optionnel)
-            const themeClass = article.theme ? article.theme.toLowerCase().split('/')[0] : 'default';
+            const themeClass = theme.toLowerCase().split('/')[0].trim();
 
             card.innerHTML = `
                 <div class="card-header">
-                    <span class="tag ${themeClass}">${article.theme || 'Tech'}</span>
+                    <span class="tag ${themeClass}">${theme}</span>
                     <span class="date">${dateAffichee}</span>
                 </div>
-                <h3><a href="${article.url}" target="_blank">${article.titre}</a></h3>
-                <p class="analyse-ia">${article.analyse}</p>
-                <a href="${article.url}" target="_blank" class="read-more">Lire la source <i class='bx bx-link-external'></i></a>
+                <h3><a href="${url}" target="_blank">${titre}</a></h3>
+                <p class="analyse-ia">${analyse}</p>
+                <a href="${url}" target="_blank" class="read-more">Lire la source <i class='bx bx-link-external'></i></a>
             `;
             
             veilleContainer.appendChild(card);
@@ -156,11 +161,10 @@ async function chargerVeilleDynamique() {
     } catch (error) {
         console.error("Erreur Veille:", error);
         if (veilleLoader) {
-            veilleLoader.innerHTML = "Impossible de charger la veille pour l'instant.";
-            veilleLoader.style.color = '#e74c3c';
+            veilleLoader.innerHTML = "Veille en cours de synchronisation...";
+            veilleLoader.style.color = '#f39c12';
         }
     }
 }
 
-// Lancer au chargement
 window.addEventListener('load', chargerVeilleDynamique);
