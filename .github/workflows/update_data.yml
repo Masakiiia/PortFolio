@@ -1,0 +1,24 @@
+name: Update Portfolio Data
+on:
+  repository_dispatch:
+    types: [update_portfolio] # Déclenché par Make
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Fetch Notion Data
+        run: |
+          # Ici un script (Node ou Python) qui lit ton Notion 
+          # et écrit dans data/articles.json
+          # Pour simplifier, on peut utiliser une "Action" toute faite
+          
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'Github Action'
+          git config --global user.email 'action@github.com'
+          git add data/articles.json
+          git commit -m "Auto-update articles" || exit 0
+          git push
