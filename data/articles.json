@@ -56,6 +56,13 @@
         "Date": "2026-03-16T14:26:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans Microsoft .Net (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0272/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans le framework Microsoft .NET, permettant à des attaquants d'obtenir des privilèges élevés et de mener des attaques par déni de service à distance. Ces failles peuvent potentiellement affecter une large gamme d'applications développées avec .NET, menaçant ainsi la sécurité et la disponibilité des systèmes d'information. La correction rapide est donc essentielle pour prévenir des exploitations généralisées.",
+        "Theme": "#DotNet #Cybersecurity #Vulnerability #ElevationOfPrivilege #DenialOfService",
+        "Date": "2026-03-16T19:56:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans les produits Microsoft (16 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0299/",
         "Resume": "De multiples vulnérabilités ont été identifiées dans divers produits Microsoft, permettant à des attaquants de causer des problèmes de sécurité non spécifiés. Bien que la nature exacte des problèmes ne soit pas détaillée, le fait qu'elles affectent plusieurs produits de l'éditeur et leur potentiel d'exploitation non défini en font une préoccupation majeure pour la sécurité informatique. L'absence de détails précis rend difficile l'évaluation de l'exploitation, mais le risque systémique potentiel justifie une vigilance accrue.",
@@ -96,13 +103,6 @@
         "Resume": "Une vulnérabilité critique a été identifiée dans OpenSSL, la bibliothèque cryptographique open-source largement utilisée. Si les détails précis ne sont pas spécifiés, elle permet à un attaquant de causer un problème de sécurité, potentiellement lié à la compromission de données ou à des attaques par déni de service, affectant potentiellement une large partie de l'infrastructure internet.",
         "Theme": "#OpenSSL #Vulnérabilité #Cryptographie #SécuritéWeb",
         "Date": "2026-03-16T14:30:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans Microsoft .Net (11 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0272/",
-        "Resume": "De multiples vulnérabilités ont été identifiées dans Microsoft .Net, permettant à des attaquants de réaliser des élévations de privilèges et des dénis de service à distance. Ces failles représentent un risque significatif pour les systèmes exploitant cette plateforme, potentiellement exposant les organisations à des compromissions graves. La correction de ces vulnérabilités est cruciale pour maintenir l'intégrité et la disponibilité des applications développées sous .Net.",
-        "Theme": "#Vulnérabilité #Microsoft #DotNet #ÉlévationDePrivilèges #DéniDeService",
-        "Date": "2026-03-16T15:02:00.000Z"
     },
     {
         "Titre": "Multiples vulnérabilités dans Curl (11 mars 2026)",
