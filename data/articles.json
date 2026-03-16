@@ -35,6 +35,13 @@
         "Date": "2026-03-16T14:26:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans les produits Microsoft (16 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0299/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans divers produits Microsoft, permettant à des attaquants de causer des problèmes de sécurité non spécifiés. Bien que la nature exacte des problèmes ne soit pas détaillée, le fait qu'elles affectent plusieurs produits de l'éditeur et leur potentiel d'exploitation non défini en font une préoccupation majeure pour la sécurité informatique. L'absence de détails précis rend difficile l'évaluation de l'exploitation, mais le risque systémique potentiel justifie une vigilance accrue.",
+        "Theme": "#Microsoft #Vulnérabilité #Cybersecurity #ZeroDay",
+        "Date": "2026-03-16T14:34:00.000Z"
+    },
+    {
         "Titre": "Why Security Validation Is Becoming Agentic",
         "URL": "https://thehackernews.com/2026/03/why-security-validation-is-becoming.html",
         "Resume": "Cet article aborde la problématique de la validation de la sécurité dans les organisations complexes, où de multiples outils disparates (BAS, pentests, scanners) fournissent des vues fragmentées. Il propose une approche \"agentic\" pour une validation plus intégrée et proactive. L'enjeu est d'améliorer la visibilité et l'efficacité de la posture de sécurité.",
