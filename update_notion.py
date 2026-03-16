@@ -27,6 +27,7 @@ def fetch_notion_data():
     data = response.json()
     
     articles = []
+    seen_urls = set()
     for page in data.get("results", []):
         props = page["properties"]
         
@@ -38,6 +39,11 @@ def fetch_notion_data():
 
         # URL
         url_link = props["URL"].get("url", "#") if "URL" in props else "#"
+        # Si l'URL a déjà été vue ou est vide, on saute cet article
+        if url_link == "#" or url_link in seen_urls:
+            continue
+        
+        seen_urls.add(url_link)
 
         # Synthèse (Colonne 'Synthèse')
         synthese = "Aucune synthèse disponible."
