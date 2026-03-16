@@ -49,6 +49,13 @@
         "Date": "2026-03-16T14:21:00.000Z"
     },
     {
+        "Titre": "Vulnérabilité dans Google Chrome (16 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0297/",
+        "Resume": "Une vulnérabilité critique (CVE-2026-3909) a été découverte dans Google Chrome et est activement exploitée par des attaquants. Cette faille permet la déclenchement d'un \"problème de sécurité non spécifié\", laissant potentiellement la porte ouverte à diverses actions malveillantes. L'éditeur a déjà publié un correctif, rendant la mise à jour urgente pour tous les utilisateurs.",
+        "Theme": "#Chrome #ZeroDay #ExploitationActive #Vulnerability",
+        "Date": "2026-03-16T14:32:00.000Z"
+    },
+    {
         "Titre": "Vulnérabilité dans OpenSSL (16 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0296/",
         "Resume": "Une vulnérabilité critique a été identifiée dans OpenSSL, la bibliothèque cryptographique open-source largement utilisée. Si les détails précis ne sont pas spécifiés, elle permet à un attaquant de causer un problème de sécurité, potentiellement lié à la compromission de données ou à des attaques par déni de service, affectant potentiellement une large partie de l'infrastructure internet.",
