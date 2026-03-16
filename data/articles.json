@@ -21,6 +21,13 @@
         "Date": "2026-03-13T12:41:00.000Z"
     },
     {
+        "Titre": "Why Security Validation Is Becoming Agentic",
+        "URL": "https://thehackernews.com/2026/03/why-security-validation-is-becoming.html",
+        "Resume": "Cet article aborde la problématique de la validation de la sécurité dans les organisations complexes, où de multiples outils disparates (BAS, pentests, scanners) fournissent des vues fragmentées. Il propose une approche \"agentic\" pour une validation plus intégrée et proactive. L'enjeu est d'améliorer la visibilité et l'efficacité de la posture de sécurité.",
+        "Theme": "#Cybersecurity #SecurityValidation #AttackSurfaceManagement",
+        "Date": "2026-03-16T14:20:00.000Z"
+    },
+    {
         "Titre": "ClickFix Campaigns Spread MacSync macOS Infostealer via Fake AI Tool Installers",
         "URL": "https://thehackernews.com/2026/03/clickfix-campaigns-spread-macsync-macos.html",
         "Resume": "Des campagnes de phishing, nommées \"ClickFix\", distribuent un logiciel malveillant baptisé MacSync sur macOS. Ce dernier vole des informations sensibles en exploitant l'interaction de l'utilisateur, qui est incité à copier-coller et exécuter des commandes, notamment via de fausses installations d'outils d'IA. L'absence de recours à des exploits traditionnels rend cette méthode particulièrement insidieuse.",
