@@ -1,1 +1,37 @@
-[]
+[
+    {
+        "Titre": "Meta Disables 150K Accounts Linked to Southeast Asia Scam Centers in Global Crackdown",
+        "URL": "https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html",
+        "Resume": "Meta a démantelé plus de 150 000 comptes liés à des centres d'arnaque en Asie du Sud-Est lors d'une opération mondiale conjointe avec plusieurs pays. Cette action a conduit à 21 arrestations en Thaïlande, soulignant l'ampleur et la collaboration internationale dans la lutte contre la cybercriminalité. L'opération vise à perturber les réseaux frauduleux opérant via les plateformes de Meta.",
+        "Theme": "#Cybercriminalité #Fraude #OpérationCoordonnée #AsiDuSudEst",
+        "Date": "2026-03-13T13:05:00.000Z"
+    },
+    {
+        "Titre": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
+        "URL": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+        "Resume": "Des chercheurs en cybersécurité ont révélé des failles critiques dans la plateforme d'automatisation de flux de travail n8n, permettant une exécution de code à distance (RCE) et l'exposition de credentials. Les vulnérabilités, désormais corrigées, possédaient des scores CVSS élevés (9.4 et 9.5), indiquant un risque majeur. Ces failles auraient pu permettre à des attaquants de prendre le contrôle de systèmes et d'accéder à des informations sensibles.",
+        "Theme": "#n8n #RCE #ZeroDay #CredentialExposure",
+        "Date": "2026-03-13T14:11:00.000Z"
+    },
+    {
+        "Titre": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
+        "URL": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+        "Resume": "Deux failles critiques (CVSS 9.4 et 9.5) découvertes dans la plateforme d'automatisation de flux de travail n8n permettent l'exécution de code à distance (RCE) et l'exposition d'identifiants stockés. Ces vulnérabilités, désormais corrigées, auraient pu permettre à des attaquants de prendre le contrôle du système sans authentification préalable.",
+        "Theme": "#RCE #n8n #ZeroDay #VulnerabilitéCritique",
+        "Date": "2026-03-13T14:07:00.000Z"
+    },
+    {
+        "Titre": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
+        "URL": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
+        "Resume": "**Des failles critiques découvertes dans SAP :** SAP a publié des correctifs pour deux vulnérabilités critiques (CVSS 9.8 et 9.1) affectant son application \"Quotation Management Insurance\" (FS-QUO), permettant l'exécution de code arbitraire. Ces failles représentent un risque sérieux pour les systèmes SAP potentiellement exposés.",
+        "Theme": "#SAP #ZeroDay #RCE #Cyberattack",
+        "Date": "2026-03-13T12:41:00.000Z"
+    },
+    {
+        "Titre": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
+        "URL": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+        "Resume": "Des chercheurs en cybersécurité ont révélé deux failles critiques dans la plateforme d'automatisation de flux de travail n8n. Ces vulnérabilités, maintenant corrigées, permettaient l'exécution de code arbitraire à distance et l'exposition de données sensibles stockées. L'une des failles, avec un score CVSS de 9.4, est une échappée du sandbox d'expression menant à l'exécution de code à distance (RCE).",
+        "Theme": "#RCE #VulnérabilitéCritique #Automatisation #n8n",
+        "Date": "2026-03-13T14:09:00.000Z"
+    }
+]
