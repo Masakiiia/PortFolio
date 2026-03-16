@@ -35,6 +35,13 @@
         "Date": "2026-03-16T14:47:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans Mozilla Firefox (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0267/",
+        "Resume": "De multiples vulnérabilités critiques ont été découvertes dans le navigateur Mozilla Firefox, permettant potentiellement à des attaquants d'exécuter du code arbitraire et de contourner les politiques de sécurité. Ces failles, affectant la confidentialité et l'intégrité des données des utilisateurs, nécessitent une mise à jour immédiate du logiciel. L'éditeur a rapidement publié des correctifs pour remédier à ces problèmes.",
+        "Theme": "#Firefox #Vulnérabilité #ExécutionDeCode #SécuritéWeb",
+        "Date": "2026-03-16T14:52:00.000Z"
+    },
+    {
         "Titre": "Bulletin d'actualité CERTFR-2026-ACT-011 (16 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-011/",
         "Resume": "Le CERT-FR publie un bulletin synthétisant les vulnérabilités significatives de la semaine du 16 mars 2026, rappelant l'importance d'une analyse de risques pour prioriser les correctifs. Il ne détaille pas les vulnérabilités spécifiques mais insiste sur la nécessité d'une veille proactive. L'objectif est de sensibiliser les organisations à l'importance d'évaluer et traiter les menaces selon leur criticité.",
