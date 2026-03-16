@@ -1,24 +1,33 @@
 name: Update Portfolio Data
 on:
   repository_dispatch:
-    types: [update_portfolio] # Déclenché par Make
+    types: [update_portfolio]
+  workflow_dispatch: # Permet de le lancer manuellement pour tester
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      
-      - name: Fetch Notion Data
-        run: |
-          # Ici un script (Node ou Python) qui lit ton Notion 
-          # et écrit dans data/articles.json
-          # Pour simplifier, on peut utiliser une "Action" toute faite
-          
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Notion script
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: python update_notion.py
+
       - name: Commit and Push
         run: |
           git config --global user.name 'Github Action'
           git config --global user.email 'action@github.com'
           git add data/articles.json
-          git commit -m "Auto-update articles" || exit 0
+          git commit -m "Auto-update articles from Notion" || exit 0
           git push
