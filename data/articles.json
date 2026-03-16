@@ -33,5 +33,12 @@
         "Resume": "Des chercheurs en cybersécurité ont révélé deux failles critiques dans la plateforme d'automatisation de flux de travail n8n. Ces vulnérabilités, maintenant corrigées, permettaient l'exécution de code arbitraire à distance et l'exposition de données sensibles stockées. L'une des failles, avec un score CVSS de 9.4, est une échappée du sandbox d'expression menant à l'exécution de code à distance (RCE).",
         "Theme": "#RCE #VulnérabilitéCritique #Automatisation #n8n",
         "Date": "2026-03-13T14:09:00.000Z"
+    },
+    {
+        "Titre": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
+        "URL": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+        "Resume": "Deux failles critiques découvertes dans la plateforme d'automatisation n8n permettent l'exécution de code à distance et l'exposition d'identifiants stockés. Ces vulnérabilités, désormais corrigées, pourraient avoir des conséquences graves sur la sécurité des données et des systèmes utilisant n8n.",
+        "Theme": "#RCE #n8n #VulnérabilitéCritique #Cybersecurity",
+        "Date": "2026-03-16T10:43:00.000Z"
     }
 ]
