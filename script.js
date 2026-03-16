@@ -8,8 +8,8 @@ const skills = [
     { icon: 'bxl-python', name: 'Python' },
     { icon: 'bxl-php', name: 'PHP' },
     { icon: 'bxl-laravel', name: 'Laravel' },
-    { icon: 'bxl-postgresql', name: 'PostgreSql' }, // Correction icône
-    { icon: 'bxl-data', name: 'SqlServer' }, // Correction icône générique si pas dispo
+    { icon: 'bxl-postgresql', name: 'PostgreSql' },
+    { icon: 'bxl-data', name: 'SqlServer' },
     { icon: 'bxl-data', name: 'MySql' }
 ];
 
@@ -32,11 +32,9 @@ function generateCarousel() {
 }
 
 function moveSlide(direction) {
-    const container = document.querySelector('.carousel-container'); // Assure-toi d'avoir une div parente ou cible le bon wrapper
     const carousel = document.querySelector('.carousel');
-    // IMPORTANT: On cible uniquement les slides de CE carousel
-    const slides = carousel.querySelectorAll('.carousel-slide'); 
-    
+    const slides = carousel.querySelectorAll('.carousel-slide');
+
     if (slides.length === 0) return;
 
     const slideWidth = slides[0].offsetWidth + 10; // +10 pour le gap éventuel
@@ -57,8 +55,8 @@ generateCarousel();
 const MesOutils = [
     { icon: 'bxl-git', title: 'Git' },
     { icon: 'bxl-microsoft-teams', title: 'Microsoft Teams' },
-    { icon: 'bx-bookmarks', title: 'OneNote' }, // bx-bookmarks est standard
-    { icon: 'bxl-visual-studio', title: 'VsCode' }, // bxl-visual-studio existe souvent
+    { icon: 'bx-bookmarks', title: 'OneNote' },
+    { icon: 'bxl-visual-studio', title: 'VsCode' },
     { icon: 'bxl-azure', title: 'Azure DevOps' },
     { icon: 'bx-cloud', title: 'Azure Portal' }
 ];
@@ -83,9 +81,8 @@ function generateSecondCarousel() {
 
 function moveSecondSlide(direction) {
     const secondCarousel = document.querySelector('.second-carousel');
-    // IMPORTANT: On cible uniquement les slides de CE carousel
     const slides = secondCarousel.querySelectorAll('.carousel-slide');
-    
+
     if (slides.length === 0) return;
 
     const slideWidth = slides[0].offsetWidth + 10;
@@ -100,63 +97,43 @@ function moveSecondSlide(direction) {
 
 generateSecondCarousel();
 
-
 // ====================================================================================
 // 3. VEILLE TECHNOLOGIQUE (JSON LOCAL VIA GITHUB ACTIONS)
 // ====================================================================================
 
-// On pointe vers le fichier local qui sera généré dans ton repo
-const VEILLE_JSON_PATH = "./data/articles.json"; 
+const VEILLE_JSON_PATH = "./data/articles.json";
 
 const veilleContainer = document.getElementById('veille-container-dynamique');
 const veilleLoader = document.getElementById('veille-loader');
+
+let allArticles = []; // Stockage global pour le filtrage
+let currentFilter = 'Tous';
+let currentSort = 'desc';
 
 async function chargerVeilleDynamique() {
     if (!veilleContainer) return;
 
     try {
-        // On récupère le fichier JSON local
         const response = await fetch(VEILLE_JSON_PATH);
-        
+
         if (!response.ok) throw new Error(`Fichier non trouvé (en attente de la 1ère synchro)`);
-        
+
         const articles = await response.json();
-        
+        allArticles = articles; // Sauvegarder
+
         if (veilleLoader) veilleLoader.style.display = 'none';
-        veilleContainer.innerHTML = ''; 
 
         if (!articles || articles.length === 0) {
             veilleContainer.innerHTML = "<p>Pas d'articles récents.</p>";
             return;
         }
 
-        // On affiche les articles (on prend les 10 derniers par exemple)
-        articles.slice(0, 10).forEach(article => {
-            // Adaptation des noms de champs selon ton export Notion
-            const titre = article.Titre || "Sans titre";
-            const url = article.URL || "#";
-            const analyse = article.Resume || "Analyse en cours...";
-            const theme = article.Theme || "Tech";
-            const dateRaw = article.Date || new Date();
-            let dateAffichee = new Date(dateRaw).toLocaleDateString("fr-FR");
+        // Afficher la barre de filtres
+        const filtersBar = document.getElementById('veille-filters-bar');
+        if (filtersBar) filtersBar.style.display = 'flex';
 
-            const card = document.createElement('div');
-            card.className = 'veille-card';
-            
-            const themeClass = theme.toLowerCase().split('/')[0].trim();
-
-            card.innerHTML = `
-                <div class="card-header">
-                    <span class="tag ${themeClass}">${theme}</span>
-                    <span class="date">${dateAffichee}</span>
-                </div>
-                <h3><a href="${url}" target="_blank">${titre}</a></h3>
-                <p class="analyse-ia">${analyse}</p>
-                <a href="${url}" target="_blank" class="read-more">Lire la source <i class='bx bx-link-external'></i></a>
-            `;
-            
-            veilleContainer.appendChild(card);
-        });
+        genererFiltres();
+        appliquerFiltresEtTri();
 
     } catch (error) {
         console.error("Erreur Veille:", error);
@@ -167,4 +144,164 @@ async function chargerVeilleDynamique() {
     }
 }
 
+let currentSearch = '';
+let currentDateFilter = '';
+
+function genererFiltres() {
+    const searchInput = document.getElementById('search-veille');
+    const dateInput = document.getElementById('date-filter-veille');
+    const sortSelect = document.getElementById('sort-veille');
+
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            currentSearch = e.target.value.toLowerCase().trim();
+            appliquerFiltresEtTri();
+        });
+    }
+
+    if (dateInput) {
+        dateInput.addEventListener('change', (e) => {
+            currentDateFilter = e.target.value; // Format 'YYYY-MM-DD'
+            appliquerFiltresEtTri();
+        });
+    }
+
+    if (sortSelect) {
+        sortSelect.addEventListener('change', (e) => {
+            currentSort = e.target.value;
+            appliquerFiltresEtTri();
+        });
+    }
+}
+
+function appliquerFiltresEtTri() {
+    let articlesFiltres = allArticles;
+
+    // 1. Filtre textuel (Recherche)
+    if (currentSearch !== '') {
+        articlesFiltres = articlesFiltres.filter(article => {
+            const theme = (article.Theme || "").toLowerCase();
+            const titre = (article.Titre || "").toLowerCase();
+            const resume = (article.Resume || "").toLowerCase();
+            return theme.includes(currentSearch) || titre.includes(currentSearch) || resume.includes(currentSearch);
+        });
+    }
+
+    // 2. Filtre par Date exacte
+    if (currentDateFilter !== '') {
+        articlesFiltres = articlesFiltres.filter(article => {
+            if (!article.Date) return false;
+
+            const articleDateObj = new Date(article.Date);
+            if (isNaN(articleDateObj.getTime())) return false;
+
+            const annee = articleDateObj.getFullYear();
+            const mois = String(articleDateObj.getMonth() + 1).padStart(2, '0');
+            const jour = String(articleDateObj.getDate()).padStart(2, '0');
+            const dateStr = `${annee}-${mois}-${jour}`;
+
+            return dateStr === currentDateFilter;
+        });
+    }
+
+    // 3. Tri par date (chronologique)
+    articlesFiltres.sort((a, b) => {
+        const dateA = new Date(a.Date || 0);
+        const dateB = new Date(b.Date || 0);
+
+        if (currentSort === 'desc') {
+            return dateB - dateA;
+        } else {
+            return dateA - dateB;
+        }
+    });
+
+    renderArticles(articlesFiltres);
+}
+
+function renderArticles(articles) {
+    veilleContainer.innerHTML = '';
+
+    if (articles.length === 0) {
+        veilleContainer.innerHTML = "<p>Aucun article ne correspond à ce filtre.</p>";
+        return;
+    }
+
+    articles.forEach(article => {
+        const titre = article.Titre || "Sans titre";
+        const url = article.URL || "#";
+        const analyse = article.Resume || "Analyse en cours...";
+        const theme = article.Theme || "Tech";
+        const dateRaw = article.Date || new Date();
+        let dateAffichee = new Date(dateRaw).toLocaleDateString("fr-FR");
+
+        let tagsHtml = '';
+        if (theme.includes('#')) {
+            const tagsList = theme.split('#').filter(t => t.trim() !== '');
+            tagsHtml = tagsList.map(t => `<span class="tag">#${t.trim()}</span>`).join('');
+        } else {
+            tagsHtml = `<span class="tag">${theme}</span>`;
+        }
+
+        const card = document.createElement('div');
+        card.className = 'veille-card';
+
+        // L'attribut data-aos ajouté dynamiquement pour animer chaque carte visible
+        card.setAttribute('data-aos', 'fade-up');
+
+        card.innerHTML = `
+            <div class="card-content-top">
+                <h3><a href="${url}" target="_blank">${titre}</a></h3>
+                <div class="card-meta">
+                    <div class="tags-container">
+                        ${tagsHtml}
+                    </div>
+                    <span class="date">${dateAffichee}</span>
+                </div>
+            </div>
+            <p class="analyse-ia">${analyse}</p>
+            <a href="${url}" target="_blank" class="read-more">Lire la source <i class='bx bx-link-external'></i></a>
+        `;
+
+        veilleContainer.appendChild(card);
+    });
+
+    // Indispensable si AOS est utilisé, pour forcer le recalcul des animations sur le nouveau DOM
+    if (typeof AOS !== 'undefined') {
+        AOS.refresh();
+    }
+}
+
 window.addEventListener('load', chargerVeilleDynamique);
+
+// ==========================================
+// 4. MENU MOBILE
+// ==========================================
+const menuBtn = document.getElementById('menu-btn');
+const sidebar = document.querySelector('.sidebar');
+
+if (menuBtn && sidebar) {
+    menuBtn.addEventListener('click', () => {
+        sidebar.classList.toggle('active');
+        const icon = menuBtn.querySelector('i');
+        if (sidebar.classList.contains('active')) {
+            icon.classList.remove('bx-menu');
+            icon.classList.add('bx-x');
+        } else {
+            icon.classList.remove('bx-x');
+            icon.classList.add('bx-menu');
+        }
+    });
+
+    const navLinks = sidebar.querySelectorAll('nav ul li a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 768) {
+                sidebar.classList.remove('active');
+                const icon = menuBtn.querySelector('i');
+                icon.classList.remove('bx-x');
+                icon.classList.add('bx-menu');
+            }
+        });
+    });
+}

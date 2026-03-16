@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
- 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Morisot Mathéo</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="#" type="x-icon">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
- 
+
 <body>
-    
+
+    <div class="menu-btn" id="menu-btn">
+        <i class='bx bx-menu'></i>
+    </div>
+
     <header id="home" class="hero">
         <div class="hero-content">
             <h1>Bonjour, je suis <span>Mathéo Morisot</span></h1>
-            <p class="tagline">Étudiant en BTS SIO - Options SLAM <br>Passionné par le développement web et les systèmes informatiques</p>
+            <p class="tagline">Étudiant en BTS SIO - Options SLAM <br>Passionné par le développement web et les systèmes
+                informatiques</p>
             <a href="#about" class="btn">En savoir plus</a>
         </div>
     </header>
- 
+
     <div class="sidebar">
         <div class="profile-pic">
             <img src="img/matete.jpg" alt="Ma photo">
@@ -37,84 +47,97 @@
             </ul>
         </nav>
     </div>
-    
- 
-    <section id="about" class="section">
+
+
+    <section id="about" class="section" data-aos="fade-up">
         <h2>À propos de moi</h2>
         <div class="about-content">
             <img src="img/smiley.jpg" alt="Ton portrait" class="profile-img">
-            <p>J'ai 18 ans et je suis actuellement en première année de BTS Services Informatiques aux Organisations au <a class="lien_lycee" href="https://www.sb-lycee.fr">lycée Saint-benigne à Dijon</a>, spécialisé en développement web et systèmes. J’ai une passion pour les technologies et je cherche à mettre mes compétences en pratique à travers des projets concrets.</p>
+            <p>J'ai 19 ans et je suis actuellement en deuxième année de BTS Services Informatiques aux Organisations au
+                <a class="lien_lycee" href="https://www.sb-lycee.fr">lycée Saint-benigne à Dijon</a>, spécialisé en
+                développement web et systèmes. J’ai une passion pour les technologies et je cherche à mettre mes
+                compétences en pratique à travers des projets concrets.
+            </p>
         </div>
     </section>
- 
+
     <section id="bts-sio" class="section">
-        <div>
+        <div class="bts-intro">
             <h3>Qu'est-ce que le BTS SIO ?</h3>
-            <p>Ce BTS s'adresse à ceux souhaitant se former en deux ans aux métiers d'administrateur réseau ou de développeur.</p>
-            <p>Le BTS SIO propose deux options :</p><br>
+            <p>Ce BTS s'adresse à ceux souhaitant se former en deux ans aux métiers d'administrateur réseau ou de
+                développeur.</p>
+            <p>Le BTS SIO propose deux options :</p>
         </div>
-        <div>
-            <p class="sisl">Option SLAM</p>
-            <p class="sisl">Option SISR</p><br>
-        </div>
-        
- 
- 
-        <div class="options">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/img-slam.webp" alt="Option SLAM" id="option_slam">
-                    </div>
-                    <div class="flip-card-back">
-                        <h1>SLAM</h1>
-                        <p>Le BTS SIO option SLAM (Solutions logicielles et applications métiers). Il prépare les futurs experts des logiciels aux métiers
-                            relatifs à la conception et à la maintenance de programmes applicatifs. Les titulaires d'un BTS SIO SLAM sont formés à toutes les tâches relatives
-                            à ces métiers :
-                            Rédaction de cahier des charges
-                            Développement des solutions logicielles et applications
-                            Formulation des besoins et spécifications
-                            Intégration au sein de la société
-                            Leurs connaissances et compétences portent également sur les bases de données. </p>
+
+        <div class="options-container">
+            <div class="option-card">
+                <p class="sisl-title">Option SLAM</p>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="img/img-slam.webp" alt="Option SLAM" id="option_slam">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>SLAM</h1>
+                            <p>Le BTS SIO option SLAM (Solutions logicielles et applications métiers). Il prépare les
+                                futurs experts des logiciels aux métiers
+                                relatifs à la conception et à la maintenance de programmes applicatifs. Les titulaires
+                                d'un BTS SIO SLAM sont formés à toutes les tâches relatives
+                                à ces métiers :
+                                Rédaction de cahier des charges
+                                Développement des solutions logicielles et applications
+                                Formulation des besoins et spécifications
+                                Intégration au sein de la société
+                                Leurs connaissances et compétences portent également sur les bases de données. </p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="img/img-sisr.webp" alt="Option SISR" id="option_sisr">
-                    </div>
-                    <div class="flip-card-back">
-                        <h1>SISR</h1>
-                        <p>le BTS SIO option SISR (Solutions d’infrastructure, systèmes et réseaux). Il s’adresse aux futurs professionnels des réseaux et des équipements informatiques.
-                            La formation concerne alors l’installation, la maintenance et la sécurité.Les diplômés d’un BTS SIO option SISR sont en mesure d’assurer l’administration
-                            et la gestion du réseau informatique d’une structure spécifique, notamment une société. Ils en garantissent la sécurité et la maintenance.</p>
+
+            <div class="option-card">
+                <p class="sisl-title">Option SISR</p>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="img/img-sisr.webp" alt="Option SISR" id="option_sisr">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>SISR</h1>
+                            <p>le BTS SIO option SISR (Solutions d’infrastructure, systèmes et réseaux). Il s’adresse
+                                aux futurs professionnels des réseaux et des équipements informatiques.
+                                La formation concerne alors l’installation, la maintenance et la sécurité.Les diplômés
+                                d’un BTS SIO option SISR sont en mesure d’assurer l’administration
+                                et la gestion du réseau informatique d’une structure spécifique, notamment une société.
+                                Ils en garantissent la sécurité et la maintenance.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
- 
+
     <section id="parcours">
         <h2>Mon Parcours Scolaire</h2>
         <div class="timeline">
-            <div class="timeline-item">
+            <div class="timeline-item" data-aos="fade-up">
                 <span class="timeline-icon">🎓</span>
                 <div class="timeline-content">
                     <h3>2018 - Brevet des collèges</h3>
-                    <p><a class="lien_lycee" href="https://clg-leshautespailles-echenon.eclat-bfc.fr/" target="_blank">Collège Les hautes pailles</a></p>
+                    <p><a class="lien_lycee" href="https://clg-leshautespailles-echenon.eclat-bfc.fr/"
+                            target="_blank">Collège Les hautes pailles</a></p>
                 </div>
             </div>
             <div class="timeline-arrow">➤</div>
-            <div class="timeline-item">
+            <div class="timeline-item" data-aos="fade-up">
                 <span class="timeline-icon">📚</span>
                 <div class="timeline-content">
                     <h3>2022 - Bac Générale</h3>
-                    <p><a class="lien_lycee" href="https://lyc-geiffel-dijon.eclat-bfc.fr/" target="_blank">Lycée Eiffel</a>, spécialité : Mathématiques et Numérique et Science Informatique</p>
+                    <p><a class="lien_lycee" href="https://lyc-geiffel-dijon.eclat-bfc.fr/" target="_blank">Lycée
+                            Eiffel</a>, spécialité : Mathématiques et Numérique et Science Informatique</p>
                 </div>
             </div>
             <div class="timeline-arrow">➤</div>
-            <div class="timeline-item">
+            <div class="timeline-item" data-aos="fade-up">
                 <span class="timeline-icon">💻</span>
                 <div class="timeline-content">
                     <h3>2023 - Licence Mathématiques et Informatique</h3>
@@ -122,7 +145,7 @@
                 </div>
             </div>
             <div class="timeline-arrow">➤</div>
-            <div class="timeline-item">
+            <div class="timeline-item" data-aos="fade-up">
                 <span class="timeline-icon">💻</span>
                 <div class="timeline-content">
                     <h3>2024 - BTS - SIO</h3>
@@ -131,71 +154,78 @@
             </div>
         </div>
     </section>
- 
+
     <section id="centres-interet">
         <h2>Mes Centres d'Intérêt</h2>
         <div class="interests-grid">
-            <div class="interest-item">
+            <div class="interest-item" data-aos="zoom-in">
                 <div class="icon">🎮</div>
                 <h3>Jeux Vidéo</h3>
                 <p>Passionné par les jeux vidéo, que ce soit pour le challenge ou la créativité.</p>
             </div>
-            <div class="interest-item">
+            <div class="interest-item" data-aos="zoom-in">
                 <div class="icon">🏅</div>
                 <h3>Sports</h3>
                 <p>Le sport m’aide à rester actif, à améliorer ma discipline et à renforcer mon esprit d’équipe.</p>
             </div>
-            <div class="interest-item">
+            <div class="interest-item" data-aos="zoom-in">
                 <div class="icon">🌍</div>
                 <h3>Voyages</h3>
                 <p>Découvrir de nouvelles cultures et explorer le monde sont des sources constantes d'inspiration.</p>
             </div>
         </div>
     </section>
-    
+
     <section id="skills" class="section">
         <h2>Mes Compétences</h2>
         <div class="carousel-container">
-            <div class="carousel"></div>  <button class="carousel-prev" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="carousel"></div> <button class="carousel-prev" onclick="moveSlide(-1)">&#10094;</button>
             <button class="carousel-next" onclick="moveSlide(1)">&#10095;</button>
 
         </div>
         <br><br>
-        
+
     </section>
- 
+
     <section id="second-carousel" class="section">
-    <h2>Mes Outils</h2>
-    <div class="carousel-container second-carousel-container">
-        <div class="carousel second-carousel"></div> <button class="carousel-prev second-carousel-prev" onclick="moveSecondSlide(-1)">&#10094;</button>
-        <button class="carousel-next second-carousel-next" onclick="moveSecondSlide(1)">&#10095;</button>
+        <h2>Mes Outils</h2>
+        <div class="carousel-container second-carousel-container">
+            <div class="carousel second-carousel"></div> <button class="carousel-prev second-carousel-prev"
+                onclick="moveSecondSlide(-1)">&#10094;</button>
+            <button class="carousel-next second-carousel-next" onclick="moveSecondSlide(1)">&#10095;</button>
 
 
-    </div>
-    <div class="onenote-button-container">
-        <a href="https://groupesb.sharepoint.com/sites/BTSSIO2026/_layouts/15/Doc.aspx?sourcedoc={d19f7864-7ec3-4fc2-a84a-990667434dc3}&action=view&wd=target%28Ateliers%20S1.one%7Cc4ccab2e-d385-48bc-b7e9-d5138329797e%2FOutils%7Cd8acbc54-2d51-4a05-b968-b83c68327a5c%2F%29&wdorigin=NavigationUrl" target="_blank" class="onenote-button">
-            Accéder à mon environnement OneNote
-        </a>
-    </div>
-</section>
- 
-    
- 
+        </div>
+        <div class="onenote-button-container">
+            <a href="https://groupesb.sharepoint.com/sites/BTSSIO2026/_layouts/15/Doc.aspx?sourcedoc={d19f7864-7ec3-4fc2-a84a-990667434dc3}&action=view&wd=target%28Ateliers%20S1.one%7Cc4ccab2e-d385-48bc-b7e9-d5138329797e%2FOutils%7Cd8acbc54-2d51-4a05-b968-b83c68327a5c%2F%29&wdorigin=NavigationUrl"
+                target="_blank" class="onenote-button">
+                Accéder à mon environnement OneNote
+            </a>
+        </div>
+    </section>
+
+
+
     <section id="projects" class="section">
         <h2>Mes Projets</h2>
         <div class="project-grid">
             <div class="project-card" data-aos="fade-up">
                 <img src="img/jeu_7_erreurs.png" alt="Projet 1">
                 <h3>Jeu 7 Erreurs</h3>
-                <p>Développement d'un site web pour faire découvrir les métiers du numérique de manière ludique a des collégiens et lycéens.</p>
-                <a href="https://jeu7erreurs-edaye5hhgubpf2ds.francecentral-01.azurewebsites.net/" target="_blank" class="btn">Voir le projet</a>
+                <p>Développement d'un site web pour faire découvrir les métiers du numérique de manière ludique a des
+                    collégiens et lycéens.</p>
+                <a href="https://jeu7erreurs-edaye5hhgubpf2ds.francecentral-01.azurewebsites.net/" target="_blank"
+                    class="btn">Voir le projet</a>
             </div>
             <div class="project-card" data-aos="fade-up">
                 <img src="img/bikedle.png" alt="Projet 2">
                 <h3>Bikedle - Jeu Quiz moto</h3>
-                <p>Développement d'un jeu interactif où les joueurs devinent des motos à partir d'indices visuels, avec deux modes de jeu :
-                    classique et flou progressif. Le projet intègre chrono, feedback sonore et visuel, musique d'ambiance, et un système de navigation fluide. </p>
-                <a href="https://bikedlesio-bwbnc0dcg5hsffcy.francecentral-01.azurewebsites.net/bikedle/index.html" target="_blank" class="btn">Voir le projet</a>
+                <p>Développement d'un jeu interactif où les joueurs devinent des motos à partir d'indices visuels, avec
+                    deux modes de jeu :
+                    classique et flou progressif. Le projet intègre chrono, feedback sonore et visuel, musique
+                    d'ambiance, et un système de navigation fluide. </p>
+                <a href="https://bikedlesio-bwbnc0dcg5hsffcy.francecentral-01.azurewebsites.net/bikedle/index.html"
+                    target="_blank" class="btn">Voir le projet</a>
             </div>
             <div class="project-card" data-aos="fade-up">
                 <img src="img/articlelaravelimg.png" alt="Projet 3">
@@ -206,54 +236,75 @@
             <div class="project-card" data-aos="fade-up">
                 <img src="img/img-roulotte.png" alt="Projet Stage WordPress">
                 <h3>Site vitrine Chez Marie’O – Stage BTS SIO</h3>
-                <p>Création complète d’un site vitrine WordPress pour une cliente (roulotte et chambres d’hôtes). 
-                    Projet réalisé durant mon premier stage (19 mai – 27 juin 2025) : conception, 
-                    échanges hebdomadaires avec la cliente, déploiement sur Azure puis migration vers o2switch, 
+                <p>Création complète d’un site vitrine WordPress pour une cliente (roulotte et chambres d’hôtes).
+                    Projet réalisé durant mon premier stage (19 mai – 27 juin 2025) : conception,
+                    échanges hebdomadaires avec la cliente, déploiement sur Azure puis migration vers o2switch,
                     optimisation SEO et gestion des plugins.</p>
                 <a href="https://marieo-roulotte-chambres.com/" target="_blank" class="btn">Voir le projet</a>
-        </div>
+            </div>
 
         </div>
     </section>
- 
+
     <section id="veille" class="section">
         <h2>Veille Technologique</h2>
         <p class="section-description">
-            La veille technologique est essentielle pour rester informé des évolutions dans le domaine de l'informatique.
+            La veille technologique est essentielle pour rester informé des évolutions dans le domaine de
+            l'informatique.
             Voici les articles pertinents que j'ai sélectionnés et analysés depuis ma base de données dynamique.
         </p>
-        <!-- <a href="https://wakelet.com/workspace/cXkNq-_W8t0wu23UXhcvP/collections" target="_blank" class="btn">Lien vers mon Wakelet</a> -->
-    
+
+        <!-- Barre de filtres et tri -->
+        <div class="veille-filters-bar" id="veille-filters-bar" style="display: none;">
+            <div class="search-container">
+                <i class='bx bx-search'></i>
+                <input type="text" id="search-veille" placeholder="Rechercher (ex: IA, React, Cyber...)">
+            </div>
+            <div class="sort-container">
+                <label for="date-filter-veille"><i class='bx bx-calendar'></i> Date :</label>
+                <input type="date" id="date-filter-veille" class="date-picker">
+
+                <label for="sort-veille" class="sort-label-icon"><i class='bx bx-sort'></i></label>
+                <select id="sort-veille">
+                    <option value="desc">Le plus récent</option>
+                    <option value="asc">Le plus ancien</option>
+                </select>
+            </div>
+        </div>
+
         <div id="veille-container-dynamique" class="veille-container">
             <p id="veille-loader">Chargement de la veille en cours...</p>
-            </div>
-        </section>
-    
- 
+        </div>
+    </section>
+
+
     <section id="contact" class="section">
         <h2>Contact</h2>
         <p class="section-description">
             Si vous avez des questions, n'hésitez pas à me contacter via le mail suivant : matheomorisot6@gmail.com
         </p>
-        
-    
+
+
         <p id="confirmation-message" style="display: none;">Merci pour votre message ! Je vous répondrai rapidement.</p>
     </section>
-    
-    
+
+
     <footer class="footer">
-        <p>&copy; <span id="current-year"></span> Morisot. Tous droits réservés.</p>
-        <div>
-            <a href="https://www.linkedin.com/in/matheo-morisot/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/Masakiiia" target="_blank">GitHub</a>
+        <div class="footer-content">
+            <p>&copy; <span id="current-year"></span> Morisot. Tous droits réservés.</p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/matheo-morisot/" target="_blank" title="LinkedIn"><i
+                        class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/Masakiiia" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+            </div>
         </div>
     </footer>
- 
+
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
         AOS.init();
     </script>
 </body>
- 
+
 </html>
