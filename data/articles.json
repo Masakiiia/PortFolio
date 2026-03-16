@@ -105,6 +105,13 @@
         "Date": "2026-03-16T15:02:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans Curl (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0269/",
+        "Resume": "De multiples vulnérabilités critiques ont été identifiées dans Curl, un outil largement utilisé pour transférer des données. Ces failles ouvrent la voie à des attaques de déni de service à distance, des fuites de données sensibles et des contournements de politiques de sécurité, impactant potentiellement un large éventail d'applications et de systèmes.",
+        "Theme": "#Curl #Vulnérabilités #DéniDeService #Confidentialité #SécuritéApplicative",
+        "Date": "2026-03-16T15:54:00.000Z"
+    },
+    {
         "Titre": "ClickFix Campaigns Spread MacSync macOS Infostealer via Fake AI Tool Installers",
         "URL": "https://thehackernews.com/2026/03/clickfix-campaigns-spread-macsync-macos.html",
         "Resume": "Des campagnes de phishing, nommées \"ClickFix\", distribuent un logiciel malveillant baptisé MacSync sur macOS. Ce dernier vole des informations sensibles en exploitant l'interaction de l'utilisateur, qui est incité à copier-coller et exécuter des commandes, notamment via de fausses installations d'outils d'IA. L'absence de recours à des exploits traditionnels rend cette méthode particulièrement insidieuse.",
