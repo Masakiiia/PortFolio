@@ -28,6 +28,13 @@
         "Date": "2026-03-16T14:28:00.000Z"
     },
     {
+        "Titre": "Panorama de la cybermenace 2025 (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-002/",
+        "Resume": "Le CERT-FR publie son panorama de la cybermenace pour 2025, soulignant l'érosion des frontières entre acteurs étatiques et cybercriminels. Cette hybridation des tactiques rend l'imputation plus complexe et voit la généralisation du détournement d'outils légitimes à des fins malveillantes. Les conséquences incluent une difficulté accrue dans l'identification des responsables et une surface d'attaque élargie par l'utilisation de ressources de confiance.",
+        "Theme": "#CyberCriminalité #CyberEspionnage #Attribution #MenaceHybride**",
+        "Date": "2026-03-16T14:47:00.000Z"
+    },
+    {
         "Titre": "Bulletin d'actualité CERTFR-2026-ACT-011 (16 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-011/",
         "Resume": "Le CERT-FR publie un bulletin synthétisant les vulnérabilités significatives de la semaine du 16 mars 2026, rappelant l'importance d'une analyse de risques pour prioriser les correctifs. Il ne détaille pas les vulnérabilités spécifiques mais insiste sur la nécessité d'une veille proactive. L'objectif est de sensibiliser les organisations à l'importance d'évaluer et traiter les menaces selon leur criticité.",
