@@ -103,5 +103,12 @@
         "Resume": "Des campagnes de phishing, nommées \"ClickFix\", distribuent un logiciel malveillant baptisé MacSync sur macOS. Ce dernier vole des informations sensibles en exploitant l'interaction de l'utilisateur, qui est incité à copier-coller et exécuter des commandes, notamment via de fausses installations d'outils d'IA. L'absence de recours à des exploits traditionnels rend cette méthode particulièrement insidieuse.",
         "Theme": "#MacSync #macOS #Infostealer #Phishing #SocialEngineering",
         "Date": "2026-03-16T13:49:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans VMware Tanzu (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0266/",
+        "Resume": "De multiples vulnérabilités ont été découvertes dans VMware Tanzu, un produit clé pour le développement et l'exécution d'applications cloud natives. Ces failles non spécifiées par l'éditeur pourraient permettre à un attaquant d'exploiter des problèmes de sécurité critiques, compromettant potentiellement l'ensemble de l'environnement cloud.",
+        "Theme": "#VMware #Tanzu #Cybersecurite #Vulnerabilite #Cloud",
+        "Date": "2026-03-16T15:00:00.000Z"
     }
 ]
