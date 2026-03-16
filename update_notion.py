@@ -14,36 +14,46 @@ headers = {
 def fetch_notion_data():
     url = f"https://api.notion.com/v1/databases/{DATABASE_ID}/query"
     
-    # Filtrage : On ne récupère que si la Note est >= 7
+    # On filtre sur la Note >= 7
     payload = {
         "filter": {
             "property": "Note",
             "number": { "greater_than_or_equal_to": 7 }
-        },
-        "sorts": [
-            { "property": "Date", "direction": "descending" }
-        ]
+        }
     }
     
     response = requests.post(url, headers=headers, json=payload)
-    response.raise_for_status() # Erreur si l'API répond mal
+    response.raise_for_status()
     data = response.json()
     
     articles = []
     for page in data.get("results", []):
         props = page["properties"]
         
-        # Extraction sécurisée des données
-        titre = props["Nom"]["title"][0]["text"]["content"] if props.get("Nom") and props["Nom"]["title"] else "Sans titre"
-        url_link = props["URL"]["url"] if props.get("URL") else "#"
-        synthese = props["Synthèse"]["rich_text"][0]["text"]["content"] if props.get("Synthèse") and props["Synthèse"]["rich_text"] else "Aucune synthèse disponible."
-        
-        # Pour les multi-select (Tags), on les rejoint avec des virgules
-        tags_list = [t["name"] for t in props["Tags"]["multi_select"]] if props.get("Tags") else ["Tech"]
-        tags_string = ", ".join(tags_list)
+        # --- EXTRACTION SÉCURISÉE ---
+        # Titre (Colonne 'Nom')
+        titre = "Sans titre"
+        if "Nom" in props and props["Nom"].get("title"):
+            titre = props["Nom"]["title"][0]["text"]["content"]
 
-        # La date automatique de Notion (Created Time) ou ta colonne Date
-        date_val = props["Date"]["date"]["start"] if props.get("Date") and props["Date"]["date"] else page["created_time"]
+        # URL
+        url_link = props["URL"].get("url", "#") if "URL" in props else "#"
+
+        # Synthèse (Colonne 'Synthèse')
+        synthese = "Aucune synthèse disponible."
+        if "Synthèse" in props and props["Synthèse"].get("rich_text"):
+            synthese = props["Synthèse"]["rich_text"][0]["text"]["content"]
+
+        # Tags (Colonne 'Tags')
+        tags_list = []
+        if "Tags" in props and props["Tags"].get("multi_select"):
+            tags_list = [t["name"] for t in props["Tags"]["multi_select"]]
+        tags_string = ", ".join(tags_list) if tags_list else "Tech"
+
+        # Date (On essaie la colonne 'Date', sinon on prend la date de création de la page)
+        date_val = page["created_time"] # Valeur par défaut
+        if "Date" in props and props["Date"].get("date") and props["Date"]["date"]:
+            date_val = props["Date"]["date"]["start"]
 
         articles.append({
             "Titre": titre,
@@ -62,5 +72,5 @@ if __name__ == "__main__":
             json.dump(articles_data, f, ensure_ascii=False, indent=4)
         print(f"Succès : {len(articles_data)} articles exportés.")
     except Exception as e:
-        print(f"Erreur : {e}")
+        print(f"Erreur détaillée : {e}")
         exit(1)
