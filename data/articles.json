@@ -70,6 +70,13 @@
         "Date": "2026-03-16T14:32:00.000Z"
     },
     {
+        "Titre": "Vulnérabilité dans Ivanti Desktop and Server Management (DSM) (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0263/",
+        "Resume": "Une vulnérabilité critique a été identifiée dans Ivanti Desktop and Server Management (DSM), permettant à un attaquant d'obtenir des privilèges élevés sur les systèmes affectés. Cette élévation de privilèges ouvre la voie à des prises de contrôle système complètes, à l'exfiltration de données sensibles ou à la propagation de malwares.",
+        "Theme": "#Ivanti #DSM #ÉlévationDePrivilèges #Cybersecurité #Vulnerability",
+        "Date": "2026-03-16T14:48:00.000Z"
+    },
+    {
         "Titre": "Vulnérabilité dans OpenSSL (16 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0296/",
         "Resume": "Une vulnérabilité critique a été identifiée dans OpenSSL, la bibliothèque cryptographique open-source largement utilisée. Si les détails précis ne sont pas spécifiés, elle permet à un attaquant de causer un problème de sécurité, potentiellement lié à la compromission de données ou à des attaques par déni de service, affectant potentiellement une large partie de l'infrastructure internet.",
