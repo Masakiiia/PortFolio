@@ -35,6 +35,13 @@
         "Date": "2026-03-16T14:47:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans les produits Microsoft (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0274/",
+        "Resume": "De multiples vulnérabilités critiques ont été découvertes dans divers produits Microsoft, permettant à des attaquants d'obtenir l'exécution de code à distance, une élévation de privilèges et un déni de service. Ces failles, si elles sont exploitées de manière combinée ou isolée, représentent un risque significatif pour les infrastructures et les données des organisations utilisant des produits Microsoft non mis à jour.**",
+        "Theme": "#Microsoft #Vulnerabilités #ZeroDay #RCE",
+        "Date": "2026-03-16T14:58:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans Mozilla Firefox (11 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0267/",
         "Resume": "De multiples vulnérabilités critiques ont été découvertes dans le navigateur Mozilla Firefox, permettant potentiellement à des attaquants d'exécuter du code arbitraire et de contourner les politiques de sécurité. Ces failles, affectant la confidentialité et l'intégrité des données des utilisateurs, nécessitent une mise à jour immédiate du logiciel. L'éditeur a rapidement publié des correctifs pour remédier à ces problèmes.",
