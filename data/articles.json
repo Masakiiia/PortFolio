@@ -98,6 +98,13 @@
         "Date": "2026-03-16T14:30:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans Microsoft .Net (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0272/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans Microsoft .Net, permettant à des attaquants de réaliser des élévations de privilèges et des dénis de service à distance. Ces failles représentent un risque significatif pour les systèmes exploitant cette plateforme, potentiellement exposant les organisations à des compromissions graves. La correction de ces vulnérabilités est cruciale pour maintenir l'intégrité et la disponibilité des applications développées sous .Net.",
+        "Theme": "#Vulnérabilité #Microsoft #DotNet #ÉlévationDePrivilèges #DéniDeService",
+        "Date": "2026-03-16T15:02:00.000Z"
+    },
+    {
         "Titre": "ClickFix Campaigns Spread MacSync macOS Infostealer via Fake AI Tool Installers",
         "URL": "https://thehackernews.com/2026/03/clickfix-campaigns-spread-macsync-macos.html",
         "Resume": "Des campagnes de phishing, nommées \"ClickFix\", distribuent un logiciel malveillant baptisé MacSync sur macOS. Ce dernier vole des informations sensibles en exploitant l'interaction de l'utilisateur, qui est incité à copier-coller et exécuter des commandes, notamment via de fausses installations d'outils d'IA. L'absence de recours à des exploits traditionnels rend cette méthode particulièrement insidieuse.",
