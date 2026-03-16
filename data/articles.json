@@ -14,13 +14,6 @@
         "Date": "2026-03-13T14:11:00.000Z"
     },
     {
-        "Titre": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
-        "URL": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
-        "Resume": "Deux failles critiques (CVSS 9.4 et 9.5) découvertes dans la plateforme d'automatisation de flux de travail n8n permettent l'exécution de code à distance (RCE) et l'exposition d'identifiants stockés. Ces vulnérabilités, désormais corrigées, auraient pu permettre à des attaquants de prendre le contrôle du système sans authentification préalable.",
-        "Theme": "#RCE #n8n #ZeroDay #VulnerabilitéCritique",
-        "Date": "2026-03-13T14:07:00.000Z"
-    },
-    {
         "Titre": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
         "URL": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
         "Resume": "**Des failles critiques découvertes dans SAP :** SAP a publié des correctifs pour deux vulnérabilités critiques (CVSS 9.8 et 9.1) affectant son application \"Quotation Management Insurance\" (FS-QUO), permettant l'exécution de code arbitraire. Ces failles représentent un risque sérieux pour les systèmes SAP potentiellement exposés.",
@@ -28,17 +21,10 @@
         "Date": "2026-03-13T12:41:00.000Z"
     },
     {
-        "Titre": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
-        "URL": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
-        "Resume": "Des chercheurs en cybersécurité ont révélé deux failles critiques dans la plateforme d'automatisation de flux de travail n8n. Ces vulnérabilités, maintenant corrigées, permettaient l'exécution de code arbitraire à distance et l'exposition de données sensibles stockées. L'une des failles, avec un score CVSS de 9.4, est une échappée du sandbox d'expression menant à l'exécution de code à distance (RCE).",
-        "Theme": "#RCE #VulnérabilitéCritique #Automatisation #n8n",
-        "Date": "2026-03-13T14:09:00.000Z"
-    },
-    {
-        "Titre": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
-        "URL": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
-        "Resume": "Deux failles critiques découvertes dans la plateforme d'automatisation n8n permettent l'exécution de code à distance et l'exposition d'identifiants stockés. Ces vulnérabilités, désormais corrigées, pourraient avoir des conséquences graves sur la sécurité des données et des systèmes utilisant n8n.",
-        "Theme": "#RCE #n8n #VulnérabilitéCritique #Cybersecurity",
-        "Date": "2026-03-16T10:43:00.000Z"
+        "Titre": "ClickFix Campaigns Spread MacSync macOS Infostealer via Fake AI Tool Installers",
+        "URL": "https://thehackernews.com/2026/03/clickfix-campaigns-spread-macsync-macos.html",
+        "Resume": "Des campagnes de phishing, nommées \"ClickFix\", distribuent un logiciel malveillant baptisé MacSync sur macOS. Ce dernier vole des informations sensibles en exploitant l'interaction de l'utilisateur, qui est incité à copier-coller et exécuter des commandes, notamment via de fausses installations d'outils d'IA. L'absence de recours à des exploits traditionnels rend cette méthode particulièrement insidieuse.",
+        "Theme": "#MacSync #macOS #Infostealer #Phishing #SocialEngineering",
+        "Date": "2026-03-16T13:49:00.000Z"
     }
 ]
