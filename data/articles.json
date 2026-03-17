@@ -124,5 +124,12 @@
         "Resume": "De multiples vulnérabilités ont été découvertes dans VMware Tanzu, un produit clé pour le développement et l'exécution d'applications cloud natives. Ces failles non spécifiées par l'éditeur pourraient permettre à un attaquant d'exploiter des problèmes de sécurité critiques, compromettant potentiellement l'ensemble de l'environnement cloud.",
         "Theme": "#VMware #Tanzu #Cybersecurite #Vulnerabilite #Cloud",
         "Date": "2026-03-16T15:00:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans les produits Adobe (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0264/",
+        "Resume": "Des vulnérabilités critiques ont été identifiées dans plusieurs produits Adobe, permettant à des attaquants d'exécuter du code à distance, de prendre le contrôle des systèmes ou de provoquer des dénis de service. Ces failles, si exploitées, pourraient entraîner des compromissions généralisées des environnements utilisant les logiciels Adobe.",
+        "Theme": "#Adobe #Vulnérabilité #ExécutionDeCodeÀDistance #DéniDeService",
+        "Date": "2026-03-17T07:58:00.000Z"
     }
 ]
