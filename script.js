@@ -33,18 +33,30 @@ function generateCarousel() {
 
 function moveSlide(direction) {
     const carousel = document.querySelector('.carousel');
+    const container = carousel.parentElement;
     const slides = carousel.querySelectorAll('.carousel-slide');
 
     if (slides.length === 0) return;
 
-    const slideWidth = slides[0].offsetWidth + 10; // +10 pour le gap éventuel
+    const slideWidth = slides[0].offsetWidth + 10; // +10 pour le gap
+    const visibleSlides = Math.floor(container.offsetWidth / slideWidth) || 1;
+    const maxIndex = Math.max(0, slides.length - visibleSlides);
 
     currentIndex += direction;
 
-    if (currentIndex < 0) currentIndex = slides.length - 1;
-    else if (currentIndex >= slides.length) currentIndex = 0;
+    if (currentIndex < 0) {
+        currentIndex = maxIndex;
+    } else if (currentIndex > maxIndex) {
+        currentIndex = 0;
+    }
 
-    carousel.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+    let translateX = currentIndex * slideWidth;
+    const maxTranslateX = Math.max(0, (slides.length * slideWidth - 10) - container.offsetWidth);
+    if (translateX > maxTranslateX) {
+        translateX = maxTranslateX;
+    }
+
+    carousel.style.transform = `translateX(-${translateX}px)`;
 }
 
 generateCarousel();
@@ -81,19 +93,37 @@ function generateSecondCarousel() {
 
 function moveSecondSlide(direction) {
     const secondCarousel = document.querySelector('.second-carousel');
+    const container = secondCarousel.parentElement;
     const slides = secondCarousel.querySelectorAll('.carousel-slide');
 
     if (slides.length === 0) return;
 
     const slideWidth = slides[0].offsetWidth + 10;
+    const visibleSlides = Math.floor(container.offsetWidth / slideWidth) || 1;
+    const maxIndex = Math.max(0, slides.length - visibleSlides);
 
     secondCurrentIndex += direction;
 
-    if (secondCurrentIndex < 0) secondCurrentIndex = slides.length - 1;
-    else if (secondCurrentIndex >= slides.length) secondCurrentIndex = 0;
+    if (secondCurrentIndex < 0) {
+        secondCurrentIndex = maxIndex;
+    } else if (secondCurrentIndex > maxIndex) {
+        secondCurrentIndex = 0;
+    }
 
-    secondCarousel.style.transform = `translateX(-${secondCurrentIndex * slideWidth}px)`;
+    let translateX = secondCurrentIndex * slideWidth;
+    const maxTranslateX = Math.max(0, (slides.length * slideWidth - 10) - container.offsetWidth);
+    if (translateX > maxTranslateX) {
+        translateX = maxTranslateX;
+    }
+
+    secondCarousel.style.transform = `translateX(-${translateX}px)`;
 }
+
+// Réaligne les carrousels s'il y a un redimensionnement de la fenêtre
+window.addEventListener('resize', () => {
+    if (document.querySelector('.carousel')) moveSlide(0);
+    if (document.querySelector('.second-carousel')) moveSecondSlide(0);
+});
 
 generateSecondCarousel();
 
