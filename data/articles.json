@@ -126,6 +126,13 @@
         "Date": "2026-03-16T15:00:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans Microsoft Windows (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0271/",
+        "Resume": "De multiples vulnérabilités critiques ont été identifiées dans Microsoft Windows, permettant des attaques d'exécution de code arbitraire à distance, d'élévation de privilèges et de déni de service à distance. Ces failles, si exploitées, pourraient entraîner des compromissions étendues des systèmes Windows. Microsoft a publié des correctifs pour adresser ces problèmes urgemment.",
+        "Theme": "#Windows #VulnérabilitésCritiques #ExécutionDeCodeArbitraire #ÉlévationDePrivilèges",
+        "Date": "2026-03-17T08:18:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans les produits Fortinet (11 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0265/",
         "Resume": "L'article rapporte la découverte de multiples vulnérabilités critiques au sein des produits Fortinet, dont certaines permettant l'exécution de code arbitraire, l'élévation de privilèges et l'atteinte à la confidentialité des données. La CVE-2025-66178 est explicitement mentionnée comme une des failles exploitables. Ces failles représentent un risque majeur pour la sécurité des infrastructures d'entreprises utilisant ces équipements.",
