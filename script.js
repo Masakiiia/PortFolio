@@ -146,15 +146,59 @@ async function chargerVeilleDynamique() {
 
 let currentSearch = '';
 let currentDateFilter = '';
+let currentSourceFilter = '';
+
+let currentPage = 1;
+const articlesPerPage = 6;
+
+// Extraction de la source depuis l'URL
+function getSourceFromUrl(url) {
+    if (!url || url === "#") return "Inconnu";
+    try {
+        const domain = new URL(url).hostname;
+        if (domain.includes('cert.ssi.gouv.fr')) return 'ANSSI (CERT-FR)';
+        if (domain.includes('thehackernews.com')) return 'The Hacker News';
+        if (domain.includes('cnil.fr')) return 'CNIL';
+        return domain.replace('www.', '');
+    } catch (e) {
+        return "Inconnu";
+    }
+}
 
 function genererFiltres() {
     const searchInput = document.getElementById('search-veille');
     const dateInput = document.getElementById('date-filter-veille');
     const sortSelect = document.getElementById('sort-veille');
+    const sourceSelect = document.getElementById('source-veille');
+
+    if (sourceSelect && allArticles.length > 0) {
+        // Peupler le menu source dynamiquement
+        const sources = new Set();
+        allArticles.forEach(article => {
+            sources.add(getSourceFromUrl(article.URL));
+        });
+
+        // Trier les sources alphabétiquement
+        const sourcesSrt = Array.from(sources).sort();
+
+        sourcesSrt.forEach(source => {
+            const option = document.createElement('option');
+            option.value = source;
+            option.textContent = source;
+            sourceSelect.appendChild(option);
+        });
+
+        sourceSelect.addEventListener('change', (e) => {
+            currentSourceFilter = e.target.value;
+            currentPage = 1;
+            appliquerFiltresEtTri();
+        });
+    }
 
     if (searchInput) {
         searchInput.addEventListener('input', (e) => {
             currentSearch = e.target.value.toLowerCase().trim();
+            currentPage = 1;
             appliquerFiltresEtTri();
         });
     }
@@ -162,6 +206,7 @@ function genererFiltres() {
     if (dateInput) {
         dateInput.addEventListener('change', (e) => {
             currentDateFilter = e.target.value; // Format 'YYYY-MM-DD'
+            currentPage = 1;
             appliquerFiltresEtTri();
         });
     }
@@ -169,6 +214,7 @@ function genererFiltres() {
     if (sortSelect) {
         sortSelect.addEventListener('change', (e) => {
             currentSort = e.target.value;
+            currentPage = 1;
             appliquerFiltresEtTri();
         });
     }
@@ -204,6 +250,13 @@ function appliquerFiltresEtTri() {
         });
     }
 
+    // 2.5 Filtre par Source
+    if (currentSourceFilter !== '') {
+        articlesFiltres = articlesFiltres.filter(article => {
+            return getSourceFromUrl(article.URL) === currentSourceFilter;
+        });
+    }
+
     // 3. Tri par date (chronologique)
     articlesFiltres.sort((a, b) => {
         const dateA = new Date(a.Date || 0);
@@ -216,7 +269,70 @@ function appliquerFiltresEtTri() {
         }
     });
 
-    renderArticles(articlesFiltres);
+    // 4. Pagination
+    const totalArticles = articlesFiltres.length;
+    const startIndex = (currentPage - 1) * articlesPerPage;
+    const endIndex = startIndex + articlesPerPage;
+    const articlesPageCourante = articlesFiltres.slice(startIndex, endIndex);
+
+    renderArticles(articlesPageCourante);
+    renderPagination(totalArticles);
+}
+
+function renderPagination(totalArticles) {
+    const paginationContainer = document.getElementById('pagination-veille');
+    if (!paginationContainer) return;
+
+    paginationContainer.innerHTML = '';
+    const totalPages = Math.ceil(totalArticles / articlesPerPage);
+
+    if (totalPages <= 1) {
+        paginationContainer.style.display = 'none';
+        return;
+    }
+
+    paginationContainer.style.display = 'flex';
+
+    // Bouton Précédent
+    const prevBtn = document.createElement('button');
+    prevBtn.className = 'page-btn prev-btn';
+    prevBtn.innerHTML = "<i class='bx bx-chevron-left'></i>";
+    prevBtn.disabled = currentPage === 1;
+    prevBtn.addEventListener('click', () => {
+        if (currentPage > 1) {
+            currentPage--;
+            appliquerFiltresEtTri();
+            document.getElementById('veille-filters-bar').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
+    paginationContainer.appendChild(prevBtn);
+
+    // Numéros de page
+    for (let i = 1; i <= totalPages; i++) {
+        const pageBtn = document.createElement('button');
+        pageBtn.className = `page-btn ${i === currentPage ? 'active' : ''}`;
+        pageBtn.textContent = i;
+        pageBtn.addEventListener('click', () => {
+            currentPage = i;
+            appliquerFiltresEtTri();
+            document.getElementById('veille-filters-bar').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        paginationContainer.appendChild(pageBtn);
+    }
+
+    // Bouton Suivant
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'page-btn next-btn';
+    nextBtn.innerHTML = "<i class='bx bx-chevron-right'></i>";
+    nextBtn.disabled = currentPage === totalPages;
+    nextBtn.addEventListener('click', () => {
+        if (currentPage < totalPages) {
+            currentPage++;
+            appliquerFiltresEtTri();
+            document.getElementById('veille-filters-bar').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
+    paginationContainer.appendChild(nextBtn);
 }
 
 function renderArticles(articles) {

@@ -261,6 +261,11 @@
                 <input type="text" id="search-veille" placeholder="Rechercher (ex: IA, React, Cyber...)">
             </div>
             <div class="sort-container">
+                <label for="source-veille"><i class='bx bx-filter'></i> Source :</label>
+                <select id="source-veille">
+                    <option value="">Toutes les sources</option>
+                </select>
+
                 <label for="date-filter-veille"><i class='bx bx-calendar'></i> Date :</label>
                 <input type="date" id="date-filter-veille" class="date-picker">
 
@@ -274,6 +279,10 @@
 
         <div id="veille-container-dynamique" class="veille-container">
             <p id="veille-loader">Chargement de la veille en cours...</p>
+        </div>
+
+        <div id="pagination-veille" class="pagination-container" style="display: none;">
+            <!-- Boutons de pagination générés en JS -->
         </div>
     </section>
 

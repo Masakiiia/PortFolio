@@ -1226,3 +1226,46 @@ body {
         /* Pas de marge sur mobile */
     }
 }
+
+/* Pagination Veille */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.page-btn {
+    background-color: var(--surface-color);
+    color: var(--main-color);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-btn:hover:not(:disabled) {
+    background-color: var(--main-color);
+    color: white;
+    border-color: var(--main-color);
+}
+
+.page-btn.active {
+    background-color: var(--second-color);
+    color: var(--main-color);
+    border-color: var(--second-color);
+    font-weight: 700;
+}
+
+.page-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: #f9f9f9;
+}
