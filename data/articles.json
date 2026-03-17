@@ -133,17 +133,17 @@
         "Date": "2026-03-17T08:18:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans les produits Adobe (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0264/",
+        "Resume": "Des vulnérabilités critiques ont été identifiées dans plusieurs produits Adobe, permettant potentiellement à des attaquants de prendre le contrôle à distance, d'élever leurs privilèges ou de provoquer des dénis de service. Ces failles exposent les utilisateurs à des risques d'exécution de code arbitraire et d'atteinte à l'intégrité de leurs systèmes. La correction de ces failles est impérative pour sécuriser les environnements professionnels et personnels utilisant ces logiciels.",
+        "Theme": "#Adobe #Vulnérabilité #ExécutionDeCode #DéniDeService",
+        "Date": "2026-03-17T08:32:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans les produits Fortinet (11 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0265/",
         "Resume": "L'article rapporte la découverte de multiples vulnérabilités critiques au sein des produits Fortinet, dont certaines permettant l'exécution de code arbitraire, l'élévation de privilèges et l'atteinte à la confidentialité des données. La CVE-2025-66178 est explicitement mentionnée comme une des failles exploitables. Ces failles représentent un risque majeur pour la sécurité des infrastructures d'entreprises utilisant ces équipements.",
         "Theme": "#Fortinet #Vulnerabilités #ExécutionDeCodeArbitraire #ÉlévationDePrivilèges",
         "Date": "2026-03-17T08:14:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans les produits Adobe (11 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0264/",
-        "Resume": "Des vulnérabilités critiques ont été identifiées dans plusieurs produits Adobe, permettant à des attaquants d'exécuter du code à distance, de prendre le contrôle des systèmes ou de provoquer des dénis de service. Ces failles, si exploitées, pourraient entraîner des compromissions généralisées des environnements utilisant les logiciels Adobe.",
-        "Theme": "#Adobe #Vulnérabilité #ExécutionDeCodeÀDistance #DéniDeService",
-        "Date": "2026-03-17T07:58:00.000Z"
     }
 ]
