@@ -173,5 +173,12 @@
         "Resume": "Une série de vulnérabilités critiques ont été identifiées dans l'hyperviseur Xen, permettant potentiellement à un attaquant d'obtenir une élévation de privilèges, de causer un déni de service à distance, et d'accéder à des données confidentielles. L'impact sur la sécurité des systèmes virtualisés exploitant Xen est donc significatif.",
         "Theme": "#Xen #Vulnérabilité #Virtualisation #ElevationPrivileges #DDoS",
         "Date": "2026-03-23T07:16:00.000Z"
+    },
+    {
+        "Titre": "Vulnérabilité dans Mattermost Server (17 février 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0176/",
+        "Resume": "Une vulnérabilité critique a été découverte dans Mattermost Server, permettant à un attaquant distant d'accéder à des données sensibles. Cette faille représente un risque significatif pour la confidentialité des informations traitées par les organisations utilisant cette plateforme de collaboration. La correction de cette vulnérabilité est donc une priorité urgente pour la sécurité des données.",
+        "Theme": "#Mattermost #FuiteDeDonnées #VulnérabilitéCritique #CyberSécurité",
+        "Date": "2026-03-23T07:18:00.000Z"
     }
 ]
