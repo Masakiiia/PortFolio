@@ -156,8 +156,8 @@
     {
         "Titre": "Multiples vulnérabilités dans Mattermost Server (16 janvier 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0052/",
-        "Resume": "L'CERT-FR a publié un avis concernant de multiples vulnérabilités découvertes dans Mattermost Server. Ces failles permettent à un attaquant de compromettre la confidentialité des données, de contourner les politiques de sécurité et d'exploiter un risque de sécurité non précisé par l'éditeur. L'impact potentiel inclut des fuites d'informations sensibles et des brèches dans les mécanismes de contrôle d'accès.",
-        "Theme": "#Mattermost #Vulnérabilité #FuiteDeDonnées #SécuritéCollaborative",
-        "Date": "2026-03-23T07:00:00.000Z"
+        "Resume": "De multiples vulnérabilités critiques ont été identifiées dans Mattermost Server, une plateforme de communication d'équipe prisée des entreprises. Ces failles permettent à des attaquants non authentifiés de potentiellement accéder à des données confidentielles, de contourner les mécanismes de sécurité établis et de causer d'autres préjudices non spécifiés. L'exploitation de ces vulnérabilités pourrait avoir des conséquences graves sur la confidentialité et l'intégrité des informations traitées au sein des organisations utilisant Mattermost.",
+        "Theme": "#Vulnérabilité #Mattermost #FuiteDeDonnées #Cybersecurité",
+        "Date": "2026-03-23T07:04:00.000Z"
     }
 ]
