@@ -198,9 +198,9 @@
     {
         "Titre": "Multiples vulnérabilités dans Xen (17 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0304/",
-        "Resume": "Une série de vulnérabilités critiques ont été identifiées dans l'hyperviseur Xen, permettant potentiellement à un attaquant d'obtenir une élévation de privilèges, de causer un déni de service à distance, et d'accéder à des données confidentielles. L'impact sur la sécurité des systèmes virtualisés exploitant Xen est donc significatif.",
-        "Theme": "#Xen #Vulnérabilité #Virtualisation #ElevationPrivileges #DDoS",
-        "Date": "2026-03-23T07:16:00.000Z"
+        "Resume": "De multiples vulnérabilités critiques ont été découvertes dans Xen, un hyperviseur largement utilisé. Ces failles permettent à des attaquants distants d'obtenir une élévation de privilèges, de causer des dénis de service, et d'accéder à des données confidentielles, impactant ainsi la sécurité des environnements virtualisés.",
+        "Theme": "#Xen #Virtualisation #CVE #ÉlévationDePrivilèges",
+        "Date": "2026-03-23T12:34:00.000Z"
     },
     {
         "Titre": "Vulnérabilité dans Mattermost Server (17 février 2026)",
