@@ -168,6 +168,13 @@
         "Date": "2026-03-23T07:04:00.000Z"
     },
     {
+        "Titre": "Vulnérabilité dans Microsoft Edge (17 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0303/",
+        "Resume": "Une vulnérabilité critique, CVE-2026-3909, a été découverte dans Microsoft Edge et est activement exploitée. Elle permet à un attaquant de déclencher un incident de sécurité non divulgué par Microsoft, ce qui représente un risque immédiat pour les utilisateurs. L'exploitation active et le manque de détails sur la nature exacte du problème soulignent la gravité de la situation.",
+        "Theme": "#MicrosoftEdge #Vulnérabilité #ExploitationActive #ZeroDay",
+        "Date": "2026-03-23T07:24:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans les produits Mattermost (16 février 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0173/",
         "Resume": "De multiples vulnérabilités ont été identifiées dans les produits Mattermost, permettant à des attaquants de causer des dénis de service à distance et d'accéder à des informations confidentielles. Ces failles, non précisément détaillées par l'éditeur, représentent un risque significatif pour les organisations utilisant cette plateforme de collaboration. L'impact potentiel sur la confidentialité et la disponibilité des données nécessite une attention immédiate pour les utilisateurs.",
