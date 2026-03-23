@@ -175,6 +175,13 @@
         "Date": "2026-03-23T07:04:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans Redmine (17 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0306/",
+        "Resume": "De multiples vulnérabilités critiques ont été découvertes dans Redmine, permettant des injections de code à distance (XSS), des contournements de sécurité et d'autres failles. Ces brèches ouvrent la voie à des prises de contrôle potentielles et à l'exécution de code arbitraire sur les instances affectées, menaçant la confidentialité et l'intégrité des données gérées par cet outil de gestion de projet open-source largement utilisé. L'éditeur, bien qu'informé, n'a pas encore publié de correctifs au moment de l'avis, laissant les organisations vulnérables.",
+        "Theme": "#Redmine #XSS #VulnérabilitéCritique #GestionDeProjet #SécuritéApplicative",
+        "Date": "2026-03-23T07:34:00.000Z"
+    },
+    {
         "Titre": "Vulnérabilité dans Microsoft Edge (17 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0303/",
         "Resume": "Une vulnérabilité critique, CVE-2026-3909, a été découverte dans Microsoft Edge et est activement exploitée. Elle permet à un attaquant de déclencher un incident de sécurité non divulgué par Microsoft, ce qui représente un risque immédiat pour les utilisateurs. L'exploitation active et le manque de détails sur la nature exacte du problème soulignent la gravité de la situation.",
