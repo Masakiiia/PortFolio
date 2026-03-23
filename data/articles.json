@@ -147,6 +147,13 @@
         "Date": "2026-03-17T08:14:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans les produits Kaspersky (17 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0301/",
+        "Resume": "De multiples vulnérabilités ont été découvertes dans plusieurs produits de Kaspersky, permettant à un attaquant de déclencher des problèmes de sécurité non spécifiés. L'éditeur a reconnu ces failles sans pour autant en détailler l'impact potentiel.",
+        "Theme": "#Kaspersky #Vulnérabilités #Cybersecurité #Antivirus",
+        "Date": "2026-03-23T07:02:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans Mattermost Server (16 janvier 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0052/",
         "Resume": "L'CERT-FR a publié un avis concernant de multiples vulnérabilités découvertes dans Mattermost Server. Ces failles permettent à un attaquant de compromettre la confidentialité des données, de contourner les politiques de sécurité et d'exploiter un risque de sécurité non précisé par l'éditeur. L'impact potentiel inclut des fuites d'informations sensibles et des brèches dans les mécanismes de contrôle d'accès.",
