@@ -166,5 +166,12 @@
         "Resume": "De multiples vulnérabilités ont été identifiées dans les produits Mattermost, permettant à des attaquants de causer des dénis de service à distance et d'accéder à des informations confidentielles. Ces failles, non précisément détaillées par l'éditeur, représentent un risque significatif pour les organisations utilisant cette plateforme de collaboration. L'impact potentiel sur la confidentialité et la disponibilité des données nécessite une attention immédiate pour les utilisateurs.",
         "Theme": "#Mattermost #Vulnérabilité #DDoS #Confidentialité",
         "Date": "2026-03-23T07:06:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans Xen (17 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0304/",
+        "Resume": "Une série de vulnérabilités critiques ont été identifiées dans l'hyperviseur Xen, permettant potentiellement à un attaquant d'obtenir une élévation de privilèges, de causer un déni de service à distance, et d'accéder à des données confidentielles. L'impact sur la sécurité des systèmes virtualisés exploitant Xen est donc significatif.",
+        "Theme": "#Xen #Vulnérabilité #Virtualisation #ElevationPrivileges #DDoS",
+        "Date": "2026-03-23T07:16:00.000Z"
     }
 ]
