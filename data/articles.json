@@ -231,13 +231,6 @@
         "Date": "2026-03-25T08:14:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans Roundcube (19 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0320/",
-        "Resume": "Aucune synthèse disponible.",
-        "Theme": "Tech",
-        "Date": "2026-03-25T08:03:00.000Z"
-    },
-    {
         "Titre": "Multiples vulnérabilités dans les produits Atlassian (18 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0314/",
         "Resume": "Des vulnérabilités critiques ont été identifiées dans plusieurs produits Atlassian, permettant notamment l'exécution de code à distance et le déni de service. Ces failles exposent les données sensibles des organisations qui utilisent ces plateformes de collaboration et de développement. Une exploitation réussie pourrait entraîner des compromissions majeures et des interruptions de service étendues.",
@@ -250,6 +243,13 @@
         "Resume": "Le Règlement sur la gouvernance des données (DGA) de l'UE établit un nouveau cadre pour les organisations altruistes de données (OAD) qui partagent des données à but non lucratif pour des objectifs d'intérêt général. Cette initiative vise à faciliter la réutilisation des données au sein de l'UE, tout en maintenant un contrôle sur la protection des données personnelles. Les conséquences potentielles incluent une meilleure exploitation des données pour la recherche et l'innovation, mais aussi des risques accrus si la gouvernance n'est pas rigoureusement appliquée.",
         "Theme": "#GouvernanceDonnées #RGPD #Confidentialité #EUDataGov",
         "Date": "2026-03-25T07:49:00.000Z"
+    },
+    {
+        "Titre": "Piratage � l'Education nationale, 243 000 agents concern�s",
+        "URL": "https://www.lemondeinformatique.fr/actualites/lire-piratage-a-l-education-nationale-243-000-agents-concernes-99715.html",
+        "Resume": "Une cyberattaque a compromis les données de 243 000 agents du ministère de l'Éducation Nationale en France, révélant une intensification des menaces contre les entités gouvernementales. Les détails de la méthode d'attaque ne sont pas encore publics, mais la nature des données potentiellement exfiltrées pourrait impacter la vie privée des individus et la sécurité nationale.",
+        "Theme": "#Cyberattaque #FuitedeDonnees #SecteurPublic",
+        "Date": "2026-03-25T08:16:00.000Z"
     },
     {
         "Titre": "Vulnérabilité dans les produits Apple (18 mars 2026)",
