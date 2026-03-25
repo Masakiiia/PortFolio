@@ -217,6 +217,13 @@
         "Date": "2026-03-25T07:53:00.000Z"
     },
     {
+        "Titre": "Vulnérabilité dans les produits Mitel (19 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0319/",
+        "Resume": "Une faille de type XSS indirecte à distance a été identifiée dans plusieurs produits de la marque Mitel, affectant la sécurité des communications d'entreprise. Cette vulnérabilité pourrait permettre à des attaquants d'exécuter du code arbitraire et potentiellement de compromettre l'accès aux données sensibles des organisations utilisatrices.",
+        "Theme": "MitelXSSRCECybersecurite",
+        "Date": "2026-03-25T08:26:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans les produits VMware (19 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0316/",
         "Resume": "De multiples vulnérabilités ont été découvertes dans plusieurs produits VMware, affectant leur sécurité sans que les détails exacts du problème ne soient spécifiés par l'éditeur. Ces failles pourraient potentiellement être exploitées par des attaquants pour compromettre la sécurité des environnements virtualisés. L'absence de détails précis sur la nature de ces failles rend l'évaluation des risques plus complexe, mais l'ampleur potentielle des systèmes affectés par des vulnérabilités VMware est généralement élevée.",
