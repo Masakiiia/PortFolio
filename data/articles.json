@@ -210,6 +210,13 @@
         "Date": "2026-03-23T07:32:00.000Z"
     },
     {
+        "Titre": "Règlement sur la gouvernance des données : FAQ sur les organisations altruistes des données reconnues dans l’Union européenne",
+        "URL": "https://www.cnil.fr/fr/reglement-sur-la-gouvernance-des-donnees-faq-sur-les-organisations-altruistes-des-donnees-reconnues",
+        "Resume": "Le Règlement sur la gouvernance des données (DGA) de l'UE établit un nouveau cadre pour les organisations altruistes de données (OAD) qui partagent des données à but non lucratif pour des objectifs d'intérêt général. Cette initiative vise à faciliter la réutilisation des données au sein de l'UE, tout en maintenant un contrôle sur la protection des données personnelles. Les conséquences potentielles incluent une meilleure exploitation des données pour la recherche et l'innovation, mais aussi des risques accrus si la gouvernance n'est pas rigoureusement appliquée.",
+        "Theme": "#GouvernanceDonnées #RGPD #Confidentialité #EUDataGov",
+        "Date": "2026-03-25T07:49:00.000Z"
+    },
+    {
         "Titre": "Vulnérabilité dans les produits Apple (18 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0313/",
         "Resume": "Une vulnérabilité critique a été identifiée dans les produits Apple, permettant à des attaquants de contourner les mécanismes de sécurité établis. Cette faille pourrait ouvrir la voie à des accès non autorisés et à des actions malveillantes sur les appareils affectés. Les détails spécifiques de l'exploit et les produits concernés sont détaillés dans l'avis du CERT-FR.",
