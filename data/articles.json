@@ -217,6 +217,13 @@
         "Date": "2026-03-25T07:53:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans les produits Atlassian (18 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0314/",
+        "Resume": "Des vulnérabilités critiques ont été identifiées dans plusieurs produits Atlassian, permettant notamment l'exécution de code à distance et le déni de service. Ces failles exposent les données sensibles des organisations qui utilisent ces plateformes de collaboration et de développement. Une exploitation réussie pourrait entraîner des compromissions majeures et des interruptions de service étendues.",
+        "Theme": "#Atlassian #RCE #DéniDeService #VulnérabilitéCritique",
+        "Date": "2026-03-25T07:57:00.000Z"
+    },
+    {
         "Titre": "Règlement sur la gouvernance des données : FAQ sur les organisations altruistes des données reconnues dans l’Union européenne",
         "URL": "https://www.cnil.fr/fr/reglement-sur-la-gouvernance-des-donnees-faq-sur-les-organisations-altruistes-des-donnees-reconnues",
         "Resume": "Le Règlement sur la gouvernance des données (DGA) de l'UE établit un nouveau cadre pour les organisations altruistes de données (OAD) qui partagent des données à but non lucratif pour des objectifs d'intérêt général. Cette initiative vise à faciliter la réutilisation des données au sein de l'UE, tout en maintenant un contrôle sur la protection des données personnelles. Les conséquences potentielles incluent une meilleure exploitation des données pour la recherche et l'innovation, mais aussi des risques accrus si la gouvernance n'est pas rigoureusement appliquée.",
