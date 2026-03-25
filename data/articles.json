@@ -217,6 +217,13 @@
         "Date": "2026-03-25T07:53:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans les produits VMware (19 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0316/",
+        "Resume": "De multiples vulnérabilités ont été découvertes dans plusieurs produits VMware, affectant leur sécurité sans que les détails exacts du problème ne soient spécifiés par l'éditeur. Ces failles pourraient potentiellement être exploitées par des attaquants pour compromettre la sécurité des environnements virtualisés. L'absence de détails précis sur la nature de ces failles rend l'évaluation des risques plus complexe, mais l'ampleur potentielle des systèmes affectés par des vulnérabilités VMware est généralement élevée.",
+        "Theme": "#VMware #Vulnérabilités #Virtualisation #Cybersecurité",
+        "Date": "2026-03-25T07:59:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans les produits Atlassian (18 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0314/",
         "Resume": "Des vulnérabilités critiques ont été identifiées dans plusieurs produits Atlassian, permettant notamment l'exécution de code à distance et le déni de service. Ces failles exposent les données sensibles des organisations qui utilisent ces plateformes de collaboration et de développement. Une exploitation réussie pourrait entraîner des compromissions majeures et des interruptions de service étendues.",
