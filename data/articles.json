@@ -208,5 +208,12 @@
         "Resume": "Une vulnérabilité critique a été identifiée dans Mattermost Server, permettant à des attaquants d'accéder à des informations confidentielles. Cette faille compromet la confidentialité des données traitées par cette plateforme de collaboration populaire utilisée par de nombreuses organisations. La correction rapide est donc essentielle pour prévenir les fuites d'informations sensibles.",
         "Theme": "#Mattermost #Vulnérabilité #FuiteDeDonnées #Confidentialité",
         "Date": "2026-03-23T07:32:00.000Z"
+    },
+    {
+        "Titre": "Vulnérabilité dans les produits Apple (18 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0313/",
+        "Resume": "Une vulnérabilité critique a été identifiée dans les produits Apple, permettant à des attaquants de contourner les mécanismes de sécurité établis. Cette faille pourrait ouvrir la voie à des accès non autorisés et à des actions malveillantes sur les appareils affectés. Les détails spécifiques de l'exploit et les produits concernés sont détaillés dans l'avis du CERT-FR.",
+        "Theme": "#Cybersecurité #Apple #Vulnérabilité #FailleSécurité",
+        "Date": "2026-03-25T07:47:00.000Z"
     }
 ]
