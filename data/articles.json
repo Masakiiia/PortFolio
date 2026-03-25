@@ -224,6 +224,13 @@
         "Date": "2026-03-25T07:59:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans Roundcube (19 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0320/",
+        "Resume": "Aucune synthèse disponible.",
+        "Theme": "Tech",
+        "Date": "2026-03-25T08:03:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans les produits Atlassian (18 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0314/",
         "Resume": "Des vulnérabilités critiques ont été identifiées dans plusieurs produits Atlassian, permettant notamment l'exécution de code à distance et le déni de service. Ces failles exposent les données sensibles des organisations qui utilisent ces plateformes de collaboration et de développement. Une exploitation réussie pourrait entraîner des compromissions majeures et des interruptions de service étendues.",
