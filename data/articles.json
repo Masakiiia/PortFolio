@@ -250,5 +250,12 @@
         "Resume": "Une vulnérabilité critique a été identifiée dans les produits Apple, permettant à des attaquants de contourner les mécanismes de sécurité établis. Cette faille pourrait ouvrir la voie à des accès non autorisés et à des actions malveillantes sur les appareils affectés. Les détails spécifiques de l'exploit et les produits concernés sont détaillés dans l'avis du CERT-FR.",
         "Theme": "#Cybersecurité #Apple #Vulnérabilité #FailleSécurité",
         "Date": "2026-03-25T07:47:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans les produits VMware (18 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0315/",
+        "Resume": "De multiples vulnérabilités non spécifiées ont été découvertes dans divers produits VMware, permettant à des attaquants de déclencher des problèmes de sécurité. Ces failles menacent la stabilité et l'intégrité des environnements virtualisés critiques.",
+        "Theme": "#VMware #Vulnérabilité #Virtualisation #CyberAttack",
+        "Date": "2026-03-25T08:12:00.000Z"
     }
 ]
