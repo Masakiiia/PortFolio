@@ -238,6 +238,13 @@
         "Date": "2026-03-25T07:59:00.000Z"
     },
     {
+        "Titre": "Vulnérabilité dans Python (19 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0317/",
+        "Resume": "Une vulnérabilité critique a été découverte dans Python, permettant un contournement des politiques de sécurité par des attaquants. Cette faille expose potentiellement de nombreuses applications et systèmes utilisant le langage de programmation.",
+        "Theme": "#Python, #Vulnérabilité, #Sécurité, #Contournement",
+        "Date": "2026-03-25T08:34:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans GLPI (18 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0312/",
         "Resume": "Des vulnérabilités critiques (injection SQL et contournement de politique) ont été découvertes dans GLPI, un logiciel de gestion d'actifs informatiques largement utilisé. Ces failles pourraient permettre à des attaquants non authentifiés d'accéder et de manipuler des données sensibles, ainsi que d'outrepasser les contrôles de sécurité.",
