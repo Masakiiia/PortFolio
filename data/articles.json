@@ -271,5 +271,12 @@
         "Resume": "De multiples vulnérabilités non spécifiées ont été découvertes dans divers produits VMware, permettant à des attaquants de déclencher des problèmes de sécurité. Ces failles menacent la stabilité et l'intégrité des environnements virtualisés critiques.",
         "Theme": "#VMware #Vulnérabilité #Virtualisation #CyberAttack",
         "Date": "2026-03-25T08:12:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans Splunk Universal Forwarder (19 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0318/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans le logiciel Splunk Universal Forwarder, permettant à un attaquant non authentifié de déclencher un problème de sécurité non précisé. Ces failles, non corrigées par l'éditeur à la date de publication, pourraient affecter l'intégrité et la disponibilité des systèmes collectant des données.",
+        "Theme": "#Splunk #Vulnérabilité #CollecteData",
+        "Date": "2026-03-25T13:43:00.000Z"
     }
 ]
