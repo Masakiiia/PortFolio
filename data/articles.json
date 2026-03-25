@@ -224,6 +224,13 @@
         "Date": "2026-03-25T07:59:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans GLPI (18 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0312/",
+        "Resume": "Des vulnérabilités critiques (injection SQL et contournement de politique) ont été découvertes dans GLPI, un logiciel de gestion d'actifs informatiques largement utilisé. Ces failles pourraient permettre à des attaquants non authentifiés d'accéder et de manipuler des données sensibles, ainsi que d'outrepasser les contrôles de sécurité.",
+        "Theme": "#GLPI #SQLi #Vulnerability #PatchManagement",
+        "Date": "2026-03-25T08:14:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans Roundcube (19 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0320/",
         "Resume": "Aucune synthèse disponible.",
