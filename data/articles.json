@@ -280,6 +280,13 @@
         "Date": "2026-03-25T13:43:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans les produits Citrix (23 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0337/",
+        "Resume": "Plusieurs vulnérabilités critiques ont été identifiées dans les produits Citrix, permettant à des attaquants de compromettre la confidentialité des données et de contourner les mesures de sécurité. Ces failles exposent potentiellement de nombreuses organisations utilisant des solutions Citrix à des risques d'exfiltration et de manipulation d'informations sensibles. L'absence de correctifs immédiats accroît la menace.",
+        "Theme": "#Citrix #Vulnerabilite #Cybersecurite",
+        "Date": "2026-03-30T06:11:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans Roundcube (09 février 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0133/",
         "Resume": "Des vulnérabilités critiques ont été découvertes dans Roundcube, permettant l'exécution de code arbitraire à distance et le contournement des politiques de sécurité. Ces failles exposent potentiellement les utilisateurs et les données gérées par les serveurs Roundcube.",
