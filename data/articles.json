@@ -280,6 +280,13 @@
         "Date": "2026-03-25T13:43:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans les produits VMware (23 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0339/",
+        "Resume": "Plusieurs vulnérabilités non spécifiées ont été découvertes dans des produits VMware, ouvrant la porte à des problèmes de sécurité potentiels. Bien que les détails précis soient limités, leur présence dans des infrastructures critiques représente un risque significatif pour les organisations.",
+        "Theme": "#VMware #Vulnérabilité #SécuritéIT",
+        "Date": "2026-03-30T06:15:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans les produits Citrix (23 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0337/",
         "Resume": "Plusieurs vulnérabilités critiques ont été identifiées dans les produits Citrix, permettant à des attaquants de compromettre la confidentialité des données et de contourner les mesures de sécurité. Ces failles exposent potentiellement de nombreuses organisations utilisant des solutions Citrix à des risques d'exfiltration et de manipulation d'informations sensibles. L'absence de correctifs immédiats accroît la menace.",
