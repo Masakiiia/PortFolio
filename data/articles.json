@@ -336,6 +336,13 @@
         "Date": "2026-03-30T06:17:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans les produits Microsoft (23 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0341/",
+        "Resume": "Des vulnérabilités multiples ont été identifiées dans divers produits Microsoft, permettant à des attaquants de déclencher des incidents de sécurité non spécifiés. La nature exacte des exploitations et les produits impactés restent flous pour le moment.",
+        "Theme": "#Microsoft #Vulnérabilité #Cybersecurity",
+        "Date": "2026-03-30T07:09:00.000Z"
+    },
+    {
         "Titre": "Vulnérabilité dans les produits Synology (23 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0338/",
         "Resume": "Une vulnérabilité critique a été identifiée dans plusieurs produits Synology, permettant une exécution de code à distance non authentifiée. Cela expose potentiellement les appareils connectés et les données qu'ils stockent à des prises de contrôle malveillantes. Les utilisateurs sont fortement incités à appliquer les correctifs dès leur publication.",
