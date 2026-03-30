@@ -299,5 +299,12 @@
         "Resume": "Des vulnérabilités critiques ont été découvertes dans Roundcube, permettant l'exécution de code arbitraire à distance et le contournement des politiques de sécurité. Ces failles exposent potentiellement les utilisateurs et les données gérées par les serveurs Roundcube.",
         "Theme": "#Roundcube #Vulnérabilité #Webmail #ExécutionCode",
         "Date": "2026-03-30T06:01:00.000Z"
+    },
+    {
+        "Titre": "Les demandes d'aide face aux cybermenaces explosent en France",
+        "URL": "https://www.lemondeinformatique.fr/actualites/lire-les-demandes-d-aide-face-aux-cybermenaces-explosent-en-france-99756.html",
+        "Resume": "Le GIP Acyma, acteur clé de la cybersécurité en France, observe une explosion des demandes d'aide face aux cybermenaces, touchant aussi bien les entreprises que les particuliers et les collectivités. Cette augmentation significative met en lumière la vulnérabilité croissante des acteurs face à des attaques de plus en plus sophistiquées.",
+        "Theme": "#Cyberattaque #Cybersécurité #France #GIP_Acyma",
+        "Date": "2026-03-30T06:17:00.000Z"
     }
 ]
