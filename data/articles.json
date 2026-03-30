@@ -320,5 +320,12 @@
         "Resume": "Le GIP Acyma, acteur clé de la cybersécurité en France, observe une explosion des demandes d'aide face aux cybermenaces, touchant aussi bien les entreprises que les particuliers et les collectivités. Cette augmentation significative met en lumière la vulnérabilité croissante des acteurs face à des attaques de plus en plus sophistiquées.",
         "Theme": "#Cyberattaque #Cybersécurité #France #GIP_Acyma",
         "Date": "2026-03-30T06:17:00.000Z"
+    },
+    {
+        "Titre": "Vulnérabilité dans les produits Synology (23 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0338/",
+        "Resume": "Une vulnérabilité critique a été identifiée dans plusieurs produits Synology, permettant une exécution de code à distance non authentifiée. Cela expose potentiellement les appareils connectés et les données qu'ils stockent à des prises de contrôle malveillantes. Les utilisateurs sont fortement incités à appliquer les correctifs dès leur publication.",
+        "Theme": "#Synology #RCE #Vulnérabilité",
+        "Date": "2026-03-30T06:37:00.000Z"
     }
 ]
