@@ -278,5 +278,12 @@
         "Resume": "De multiples vulnérabilités ont été identifiées dans le logiciel Splunk Universal Forwarder, permettant à un attaquant non authentifié de déclencher un problème de sécurité non précisé. Ces failles, non corrigées par l'éditeur à la date de publication, pourraient affecter l'intégrité et la disponibilité des systèmes collectant des données.",
         "Theme": "#Splunk #Vulnérabilité #CollecteData",
         "Date": "2026-03-25T13:43:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans Roundcube (09 février 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0133/",
+        "Resume": "Des vulnérabilités critiques ont été découvertes dans Roundcube, permettant l'exécution de code arbitraire à distance et le contournement des politiques de sécurité. Ces failles exposent potentiellement les utilisateurs et les données gérées par les serveurs Roundcube.",
+        "Theme": "#Roundcube #Vulnérabilité #Webmail #ExécutionCode",
+        "Date": "2026-03-30T06:01:00.000Z"
     }
 ]
