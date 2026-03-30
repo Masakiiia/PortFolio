@@ -280,6 +280,13 @@
         "Date": "2026-03-25T13:43:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans Ruby on Rails (24 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0349/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans Ruby on Rails, permettant l'exécution de code à distance, des dénis de service et l'altération de données. Ces failles exposent les applications basées sur ce framework à des risques significatifs de compromission.",
+        "Theme": "#Rails #Vulnérabilité #RCE",
+        "Date": "2026-03-30T06:23:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans les produits VMware (23 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0339/",
         "Resume": "Plusieurs vulnérabilités non spécifiées ont été découvertes dans des produits VMware, ouvrant la porte à des problèmes de sécurité potentiels. Bien que les détails précis soient limités, leur présence dans des infrastructures critiques représente un risque significatif pour les organisations.",
