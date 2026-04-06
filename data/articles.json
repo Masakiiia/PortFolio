@@ -348,5 +348,12 @@
         "Resume": "Une vulnérabilité critique a été identifiée dans plusieurs produits Synology, permettant une exécution de code à distance non authentifiée. Cela expose potentiellement les appareils connectés et les données qu'ils stockent à des prises de contrôle malveillantes. Les utilisateurs sont fortement incités à appliquer les correctifs dès leur publication.",
         "Theme": "#Synology #RCE #Vulnérabilité",
         "Date": "2026-03-30T06:37:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (27 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0371/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans le noyau Linux d'Ubuntu, permettant des attaques d'exécution de code arbitraire, d'élévation de privilèges et de vol de données. L'impact potentiel est significatif car ces failles affectent une distribution Linux largement utilisée.",
+        "Theme": "#Linux #Vulnérabilité #Kernel #Ubuntu",
+        "Date": "2026-04-06T06:05:00.000Z"
     }
 ]
