@@ -369,5 +369,12 @@
         "Resume": "De multiples vulnérabilités ont été identifiées dans le noyau Linux d'Ubuntu, permettant des attaques d'exécution de code arbitraire, d'élévation de privilèges et de vol de données. L'impact potentiel est significatif car ces failles affectent une distribution Linux largement utilisée.",
         "Theme": "#Linux #Vulnérabilité #Kernel #Ubuntu",
         "Date": "2026-04-06T06:05:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans le noyau Linux de SUSE (27 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0369/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans le noyau Linux de SUSE, ouvrant la porte à des attaques par exécution de code arbitraire, vol de données et corruption d'informations. Les utilisateurs de SUSE sont directement concernés par ces failles critiques.",
+        "Theme": "#Linux #SUSE #Vulnérabilité #ExécutionCode",
+        "Date": "2026-04-06T06:27:00.000Z"
     }
 ]
