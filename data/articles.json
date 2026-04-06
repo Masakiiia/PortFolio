@@ -350,6 +350,13 @@
         "Date": "2026-03-30T06:37:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans les produits NetApp (27 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0363/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans les produits NetApp, permettant à des attaquants distants de causer des dénis de service, de compromettre la confidentialité et l'intégrité des données. Ces failles représentent un risque significatif pour les organisations utilisant ces solutions de stockage.",
+        "Theme": "#NetApp #Stockage #Vulnérabilités #DoS",
+        "Date": "2026-04-06T06:19:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (27 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0371/",
         "Resume": "De multiples vulnérabilités ont été identifiées dans le noyau Linux d'Ubuntu, permettant des attaques d'exécution de code arbitraire, d'élévation de privilèges et de vol de données. L'impact potentiel est significatif car ces failles affectent une distribution Linux largement utilisée.",
