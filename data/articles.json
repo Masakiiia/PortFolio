@@ -350,6 +350,13 @@
         "Date": "2026-03-30T06:37:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans Zabbix (27 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0367/",
+        "Resume": "Plusieurs vulnérabilités critiques ont été identifiées dans Zabbix, une plateforme de supervision très répandue. Ces failles permettent des dénis de service à distance et des contournements de sécurité, exposant les infrastructures surveillées à des risques majeurs.",
+        "Theme": "#Zabbix #Vulnérabilité #Supervision #DoS",
+        "Date": "2026-04-06T06:35:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans les produits NetApp (27 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0363/",
         "Resume": "De multiples vulnérabilités ont été identifiées dans les produits NetApp, permettant à des attaquants distants de causer des dénis de service, de compromettre la confidentialité et l'intégrité des données. Ces failles représentent un risque significatif pour les organisations utilisant ces solutions de stockage.",
