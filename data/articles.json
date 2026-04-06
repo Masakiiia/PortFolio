@@ -383,5 +383,12 @@
         "Resume": "De multiples vulnérabilités ont été identifiées dans le noyau Linux de SUSE, ouvrant la porte à des attaques par exécution de code arbitraire, vol de données et corruption d'informations. Les utilisateurs de SUSE sont directement concernés par ces failles critiques.",
         "Theme": "#Linux #SUSE #Vulnérabilité #ExécutionCode",
         "Date": "2026-04-06T06:27:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans Spring AI (27 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0365/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans Spring AI, permettant notamment l'exécution de code à distance, le SSRF et le contournement de sécurité. Ces failles pourraient être exploitées par des attaquants pour compromettre des applications basées sur cette librairie.",
+        "Theme": "#SpringAI #Vulnérabilité #CodeExecution #SSRF",
+        "Date": "2026-04-06T07:03:00.000Z"
     }
 ]
