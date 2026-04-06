@@ -364,6 +364,13 @@
         "Date": "2026-04-06T06:19:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans les produits Siemens (27 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0364/",
+        "Resume": "Des vulnérabilités multiples ont été identifiées dans les produits Siemens, permettant à des attaquants de causer un déni de service à distance. Ces failles menacent la disponibilité des systèmes industriels critiques gérés par ces équipements. L'absence de patch immédiat accentue le risque.",
+        "Theme": "#Siemens #IoT #ICS #DoS",
+        "Date": "2026-04-06T07:11:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans le noyau Linux de Red Hat (27 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0370/",
         "Resume": "Plusieurs failles critiques ont été découvertes dans le noyau Linux utilisé par Red Hat, permettant l'exécution de code arbitraire, l'élévation de privilèges et la compromission de données. Ces vulnérabilités, si exploitées, peuvent avoir des conséquences désastreuses sur la sécurité des systèmes.",
