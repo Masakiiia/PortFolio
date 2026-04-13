@@ -1,5 +1,12 @@
 [
     {
+        "Titre": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (03 avril 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0397/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans le noyau Linux d'Ubuntu, potentiellement exploitables pour exécuter du code arbitraire, élever les privilèges ou accéder à des données confidentielles. Ces failles représentent un risque significatif pour la sécurité des systèmes utilisant cette distribution.",
+        "Theme": "#Linux #Ubuntu #Vulnérabilité #ExécutionCode",
+        "Date": "2026-04-13T06:15:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans les produits Netgate (02 avril 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0387/",
         "Resume": "Plusieurs vulnérabilités ont été identifiées dans les produits Netgate, permettant l'exécution de code à distance et des injections XSS. Ces failles pourraient compromettre la sécurité des infrastructures utilisant ces équipements.",
