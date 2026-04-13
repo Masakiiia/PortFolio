@@ -1,283 +1,87 @@
 [
     {
-        "Titre": "Meta Disables 150K Accounts Linked to Southeast Asia Scam Centers in Global Crackdown",
-        "URL": "https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html",
-        "Resume": "Meta a démantelé plus de 150 000 comptes liés à des centres d'arnaque en Asie du Sud-Est lors d'une opération mondiale conjointe avec plusieurs pays. Cette action a conduit à 21 arrestations en Thaïlande, soulignant l'ampleur et la collaboration internationale dans la lutte contre la cybercriminalité. L'opération vise à perturber les réseaux frauduleux opérant via les plateformes de Meta.",
-        "Theme": "#Cybercriminalité #Fraude #OpérationCoordonnée #AsiDuSudEst",
-        "Date": "2026-03-13T13:05:00.000Z"
+        "Titre": "Vulnérabilité dans Roundcube (30 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0373/",
+        "Resume": "Une faille critique dans Roundcube permet le contournement des politiques de sécurité, exposant potentiellement les données des utilisateurs et les configurations des serveurs de messagerie. Cette vulnérabilité ouvre la porte à des attaques ciblées et à la compromission d'infrastructures.",
+        "Theme": "#Roundcube #Faille #Webmail #Sécurité",
+        "Date": "2026-04-13T06:02:00.000Z"
     },
     {
-        "Titre": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
-        "URL": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
-        "Resume": "Des chercheurs en cybersécurité ont révélé des failles critiques dans la plateforme d'automatisation de flux de travail n8n, permettant une exécution de code à distance (RCE) et l'exposition de credentials. Les vulnérabilités, désormais corrigées, possédaient des scores CVSS élevés (9.4 et 9.5), indiquant un risque majeur. Ces failles auraient pu permettre à des attaquants de prendre le contrôle de systèmes et d'accéder à des informations sensibles.",
-        "Theme": "#n8n #RCE #ZeroDay #CredentialExposure",
-        "Date": "2026-03-13T14:11:00.000Z"
+        "Titre": "Multiples vulnérabilités dans les produits Siemens (27 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0364/",
+        "Resume": "Des vulnérabilités multiples ont été identifiées dans les produits Siemens, permettant à des attaquants de causer un déni de service à distance. Ces failles menacent la disponibilité des systèmes industriels critiques gérés par ces équipements. L'absence de patch immédiat accentue le risque.",
+        "Theme": "#Siemens #IoT #ICS #DoS",
+        "Date": "2026-04-06T07:11:00.000Z"
     },
     {
-        "Titre": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
-        "URL": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
-        "Resume": "**Des failles critiques découvertes dans SAP :** SAP a publié des correctifs pour deux vulnérabilités critiques (CVSS 9.8 et 9.1) affectant son application \"Quotation Management Insurance\" (FS-QUO), permettant l'exécution de code arbitraire. Ces failles représentent un risque sérieux pour les systèmes SAP potentiellement exposés.",
-        "Theme": "#SAP #ZeroDay #RCE #Cyberattack",
-        "Date": "2026-03-13T12:41:00.000Z"
+        "Titre": "Multiples vulnérabilités dans Spring AI (27 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0365/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans Spring AI, permettant notamment l'exécution de code à distance, le SSRF et le contournement de sécurité. Ces failles pourraient être exploitées par des attaquants pour compromettre des applications basées sur cette librairie.",
+        "Theme": "#SpringAI #Vulnérabilité #CodeExecution #SSRF",
+        "Date": "2026-04-06T07:03:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans Microsoft Edge (16 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0298/",
-        "Resume": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge, dont une (CVE-2026-3910) activement exploitée, permettant le contournement des politiques de sécurité. Ces failles ouvrent la porte à des attaques non spécifiées par l'éditeur, compromettant la sécurité des utilisateurs.",
-        "Theme": "#MicrosoftEdge #Vulnérabilité #ExploitationActive #ZéroDay",
-        "Date": "2026-03-16T14:28:00.000Z"
+        "Titre": "Multiples vulnérabilités dans Zabbix (27 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0367/",
+        "Resume": "Plusieurs vulnérabilités critiques ont été identifiées dans Zabbix, une plateforme de supervision très répandue. Ces failles permettent des dénis de service à distance et des contournements de sécurité, exposant les infrastructures surveillées à des risques majeurs.",
+        "Theme": "#Zabbix #Vulnérabilité #Supervision #DoS",
+        "Date": "2026-04-06T06:35:00.000Z"
     },
     {
-        "Titre": "Panorama de la cybermenace 2025 (11 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-002/",
-        "Resume": "Le CERT-FR publie son panorama de la cybermenace pour 2025, soulignant l'érosion des frontières entre acteurs étatiques et cybercriminels. Cette hybridation des tactiques rend l'imputation plus complexe et voit la généralisation du détournement d'outils légitimes à des fins malveillantes. Les conséquences incluent une difficulté accrue dans l'identification des responsables et une surface d'attaque élargie par l'utilisation de ressources de confiance.",
-        "Theme": "#CyberCriminalité #CyberEspionnage #Attribution #MenaceHybride**",
-        "Date": "2026-03-16T14:47:00.000Z"
+        "Titre": "Multiples vulnérabilités dans le noyau Linux de SUSE (27 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0369/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans le noyau Linux de SUSE, ouvrant la porte à des attaques par exécution de code arbitraire, vol de données et corruption d'informations. Les utilisateurs de SUSE sont directement concernés par ces failles critiques.",
+        "Theme": "#Linux #SUSE #Vulnérabilité #ExécutionCode",
+        "Date": "2026-04-06T06:27:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans les produits Microsoft (11 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0274/",
-        "Resume": "De multiples vulnérabilités critiques ont été découvertes dans divers produits Microsoft, permettant à des attaquants d'obtenir l'exécution de code à distance, une élévation de privilèges et un déni de service. Ces failles, si elles sont exploitées de manière combinée ou isolée, représentent un risque significatif pour les infrastructures et les données des organisations utilisant des produits Microsoft non mis à jour.**",
-        "Theme": "#Microsoft #Vulnerabilités #ZeroDay #RCE",
-        "Date": "2026-03-16T14:58:00.000Z"
+        "Titre": "Multiples vulnérabilités dans le noyau Linux de Red Hat (27 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0370/",
+        "Resume": "Plusieurs failles critiques ont été découvertes dans le noyau Linux utilisé par Red Hat, permettant l'exécution de code arbitraire, l'élévation de privilèges et la compromission de données. Ces vulnérabilités, si exploitées, peuvent avoir des conséquences désastreuses sur la sécurité des systèmes.",
+        "Theme": "#Linux #Vulnérabilité #RedHat #ExécutionCode",
+        "Date": "2026-04-06T06:25:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans Mozilla Firefox (11 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0267/",
-        "Resume": "De multiples vulnérabilités critiques ont été découvertes dans le navigateur Mozilla Firefox, permettant potentiellement à des attaquants d'exécuter du code arbitraire et de contourner les politiques de sécurité. Ces failles, affectant la confidentialité et l'intégrité des données des utilisateurs, nécessitent une mise à jour immédiate du logiciel. L'éditeur a rapidement publié des correctifs pour remédier à ces problèmes.",
-        "Theme": "#Firefox #Vulnérabilité #ExécutionDeCode #SécuritéWeb",
-        "Date": "2026-03-16T14:52:00.000Z"
+        "Titre": "Multiples vulnérabilités dans les produits NetApp (27 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0363/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans les produits NetApp, permettant à des attaquants distants de causer des dénis de service, de compromettre la confidentialité et l'intégrité des données. Ces failles représentent un risque significatif pour les organisations utilisant ces solutions de stockage.",
+        "Theme": "#NetApp #Stockage #Vulnérabilités #DoS",
+        "Date": "2026-04-06T06:19:00.000Z"
     },
     {
-        "Titre": "Bulletin d'actualité CERTFR-2026-ACT-011 (16 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-011/",
-        "Resume": "Le CERT-FR publie un bulletin synthétisant les vulnérabilités significatives de la semaine du 16 mars 2026, rappelant l'importance d'une analyse de risques pour prioriser les correctifs. Il ne détaille pas les vulnérabilités spécifiques mais insiste sur la nécessité d'une veille proactive. L'objectif est de sensibiliser les organisations à l'importance d'évaluer et traiter les menaces selon leur criticité.",
-        "Theme": "#VeilleCyber #GestionDesRisques #Vulnérabilités",
-        "Date": "2026-03-16T14:26:00.000Z"
+        "Titre": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (27 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0371/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans le noyau Linux d'Ubuntu, permettant des attaques d'exécution de code arbitraire, d'élévation de privilèges et de vol de données. L'impact potentiel est significatif car ces failles affectent une distribution Linux largement utilisée.",
+        "Theme": "#Linux #Vulnérabilité #Kernel #Ubuntu",
+        "Date": "2026-04-06T06:05:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans Microsoft .Net (11 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0272/",
-        "Resume": "De multiples vulnérabilités ont été identifiées dans le framework Microsoft .NET, permettant à des attaquants d'obtenir des privilèges élevés et de mener des attaques par déni de service à distance. Ces failles peuvent potentiellement affecter une large gamme d'applications développées avec .NET, menaçant ainsi la sécurité et la disponibilité des systèmes d'information. La correction rapide est donc essentielle pour prévenir des exploitations généralisées.",
-        "Theme": "#DotNet #Cybersecurity #Vulnerability #ElevationOfPrivilege #DenialOfService",
-        "Date": "2026-03-16T19:56:00.000Z"
+        "Titre": "Multiples vulnérabilités dans Mattermost Server (17 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0300/",
+        "Resume": "Multiples vulnérabilités découvertes dans Mattermost Server, permettant un contournement des politiques de sécurité. L'éditeur a publié des correctifs et recommande une mise à jour rapide des installations affectées. L'impact spécifique d'une des vulnérabilités reste non divulgué.",
+        "Theme": "#Mattermost #Vulnérabilité #Sécurité",
+        "Date": "2026-04-06T06:01:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans les produits Microsoft (16 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0299/",
-        "Resume": "De multiples vulnérabilités ont été identifiées dans divers produits Microsoft, permettant à des attaquants de causer des problèmes de sécurité non spécifiés. Bien que la nature exacte des problèmes ne soit pas détaillée, le fait qu'elles affectent plusieurs produits de l'éditeur et leur potentiel d'exploitation non défini en font une préoccupation majeure pour la sécurité informatique. L'absence de détails précis rend difficile l'évaluation de l'exploitation, mais le risque systémique potentiel justifie une vigilance accrue.",
-        "Theme": "#Microsoft #Vulnérabilité #Cybersecurity #ZeroDay",
-        "Date": "2026-03-16T14:34:00.000Z"
+        "Titre": "Multiples vulnérabilités dans les produits Microsoft (23 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0341/",
+        "Resume": "Des vulnérabilités multiples ont été identifiées dans divers produits Microsoft, permettant à des attaquants de déclencher des incidents de sécurité non spécifiés. La nature exacte des exploitations et les produits impactés restent flous pour le moment.",
+        "Theme": "#Microsoft #Vulnérabilité #Cybersecurity",
+        "Date": "2026-03-30T07:09:00.000Z"
     },
     {
-        "Titre": "Why Security Validation Is Becoming Agentic",
-        "URL": "https://thehackernews.com/2026/03/why-security-validation-is-becoming.html",
-        "Resume": "Cet article aborde la problématique de la validation de la sécurité dans les organisations complexes, où de multiples outils disparates (BAS, pentests, scanners) fournissent des vues fragmentées. Il propose une approche \"agentic\" pour une validation plus intégrée et proactive. L'enjeu est d'améliorer la visibilité et l'efficacité de la posture de sécurité.",
-        "Theme": "#Cybersecurity #SecurityValidation #AttackSurfaceManagement",
-        "Date": "2026-03-16T14:20:00.000Z"
+        "Titre": "Telex : L'Europe enqu�te apr�s un piratage de son instance AWS, Apple arr�te le Mac Pro, SAP rach�te Reltio",
+        "URL": "https://www.lemondeinformatique.fr/actualites/lire-telex-l-europe-enquete-apres-un-piratage-de-son-instance-aws-apple-arrete-le-mac-pro-sap-rachete-reltio-99768.html",
+        "Resume": "La Commission européenne enquête sur un piratage de son instance AWS, potentiellement lié à des informations sensibles. Bien que les détails soient limités, un incident de sécurité touchant une institution européenne majeure justifie une attention particulière en raison des implications potentielles en matière de données et de confiance.",
+        "Theme": "#Cloud #AWS #Cyberattaque #Europe",
+        "Date": "2026-03-30T07:07:00.000Z"
     },
     {
-        "Titre": "INTERPOL Dismantles 45,000 Malicious IPs, Arrests 94 in Global Cybercrime",
-        "URL": "https://thehackernews.com/2026/03/interpol-dismantles-45000-malicious-ips.html",
-        "Resume": "INTERPOL a démantelé 45 000 adresses IP et serveurs malveillants utilisés pour des campagnes de phishing, de malwares et de ransomwares, résultant en 94 arrestations dans le cadre d'une opération internationale impliquant 72 pays. Cette action vise à perturber les réseaux criminels et à protéger les victimes.",
-        "Theme": "#Cybercriminalité #INTERPOL #OpérationInternationale #Phishing #Ransomware",
-        "Date": "2026-03-16T14:21:00.000Z"
-    },
-    {
-        "Titre": "Vulnérabilité dans Google Chrome (16 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0297/",
-        "Resume": "Une vulnérabilité critique (CVE-2026-3909) a été découverte dans Google Chrome et est activement exploitée par des attaquants. Cette faille permet la déclenchement d'un \"problème de sécurité non spécifié\", laissant potentiellement la porte ouverte à diverses actions malveillantes. L'éditeur a déjà publié un correctif, rendant la mise à jour urgente pour tous les utilisateurs.",
-        "Theme": "#Chrome #ZeroDay #ExploitationActive #Vulnerability",
-        "Date": "2026-03-16T14:32:00.000Z"
-    },
-    {
-        "Titre": "Vulnérabilité dans Ivanti Desktop and Server Management (DSM) (11 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0263/",
-        "Resume": "Une vulnérabilité critique a été identifiée dans Ivanti Desktop and Server Management (DSM), permettant à un attaquant d'obtenir des privilèges élevés sur les systèmes affectés. Cette élévation de privilèges ouvre la voie à des prises de contrôle système complètes, à l'exfiltration de données sensibles ou à la propagation de malwares.",
-        "Theme": "#Ivanti #DSM #ÉlévationDePrivilèges #Cybersecurité #Vulnerability",
-        "Date": "2026-03-16T14:48:00.000Z"
-    },
-    {
-        "Titre": "Vulnérabilité dans OpenSSL (16 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0296/",
-        "Resume": "Une vulnérabilité critique a été identifiée dans OpenSSL, la bibliothèque cryptographique open-source largement utilisée. Si les détails précis ne sont pas spécifiés, elle permet à un attaquant de causer un problème de sécurité, potentiellement lié à la compromission de données ou à des attaques par déni de service, affectant potentiellement une large partie de l'infrastructure internet.",
-        "Theme": "#OpenSSL #Vulnérabilité #Cryptographie #SécuritéWeb",
-        "Date": "2026-03-16T14:30:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans Curl (11 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0269/",
-        "Resume": "De multiples vulnérabilités critiques ont été identifiées dans Curl, un outil largement utilisé pour transférer des données. Ces failles ouvrent la voie à des attaques de déni de service à distance, des fuites de données sensibles et des contournements de politiques de sécurité, impactant potentiellement un large éventail d'applications et de systèmes.",
-        "Theme": "#Curl #Vulnérabilités #DéniDeService #Confidentialité #SécuritéApplicative",
-        "Date": "2026-03-16T15:54:00.000Z"
-    },
-    {
-        "Titre": "ClickFix Campaigns Spread MacSync macOS Infostealer via Fake AI Tool Installers",
-        "URL": "https://thehackernews.com/2026/03/clickfix-campaigns-spread-macsync-macos.html",
-        "Resume": "Des campagnes de phishing, nommées \"ClickFix\", distribuent un logiciel malveillant baptisé MacSync sur macOS. Ce dernier vole des informations sensibles en exploitant l'interaction de l'utilisateur, qui est incité à copier-coller et exécuter des commandes, notamment via de fausses installations d'outils d'IA. L'absence de recours à des exploits traditionnels rend cette méthode particulièrement insidieuse.",
-        "Theme": "#MacSync #macOS #Infostealer #Phishing #SocialEngineering",
-        "Date": "2026-03-16T13:49:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans VMware Tanzu (11 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0266/",
-        "Resume": "De multiples vulnérabilités ont été découvertes dans VMware Tanzu, un produit clé pour le développement et l'exécution d'applications cloud natives. Ces failles non spécifiées par l'éditeur pourraient permettre à un attaquant d'exploiter des problèmes de sécurité critiques, compromettant potentiellement l'ensemble de l'environnement cloud.",
-        "Theme": "#VMware #Tanzu #Cybersecurite #Vulnerabilite #Cloud",
-        "Date": "2026-03-16T15:00:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans Microsoft Windows (11 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0271/",
-        "Resume": "De multiples vulnérabilités critiques ont été identifiées dans Microsoft Windows, permettant des attaques d'exécution de code arbitraire à distance, d'élévation de privilèges et de déni de service à distance. Ces failles, si exploitées, pourraient entraîner des compromissions étendues des systèmes Windows. Microsoft a publié des correctifs pour adresser ces problèmes urgemment.",
-        "Theme": "#Windows #VulnérabilitésCritiques #ExécutionDeCodeArbitraire #ÉlévationDePrivilèges",
-        "Date": "2026-03-17T08:18:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans les produits Adobe (11 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0264/",
-        "Resume": "Des vulnérabilités critiques ont été identifiées dans plusieurs produits Adobe, permettant potentiellement à des attaquants de prendre le contrôle à distance, d'élever leurs privilèges ou de provoquer des dénis de service. Ces failles exposent les utilisateurs à des risques d'exécution de code arbitraire et d'atteinte à l'intégrité de leurs systèmes. La correction de ces failles est impérative pour sécuriser les environnements professionnels et personnels utilisant ces logiciels.",
-        "Theme": "#Adobe #Vulnérabilité #ExécutionDeCode #DéniDeService",
-        "Date": "2026-03-17T08:32:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans les produits Fortinet (11 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0265/",
-        "Resume": "L'article rapporte la découverte de multiples vulnérabilités critiques au sein des produits Fortinet, dont certaines permettant l'exécution de code arbitraire, l'élévation de privilèges et l'atteinte à la confidentialité des données. La CVE-2025-66178 est explicitement mentionnée comme une des failles exploitables. Ces failles représentent un risque majeur pour la sécurité des infrastructures d'entreprises utilisant ces équipements.",
-        "Theme": "#Fortinet #Vulnerabilités #ExécutionDeCodeArbitraire #ÉlévationDePrivilèges",
-        "Date": "2026-03-17T08:14:00.000Z"
-    },
-    {
-        "Titre": "Vulnérabilité dans les produits Microsoft (17 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0307/",
-        "Resume": "Une vulnérabilité de sécurité a été identifiée dans plusieurs produits Microsoft, permettant potentiellement à des attaquants de causer des problèmes de sécurité non spécifiés. L'éditeur a publié un avis pour informer de cette faille, mais les détails techniques et l'impact précis restent encore flous.",
-        "Theme": "#Microsoft #Vulnérabilité #SécuritéInformatique",
-        "Date": "2026-03-23T07:26:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans les produits Kaspersky (17 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0301/",
-        "Resume": "De multiples vulnérabilités ont été identifiées dans les produits de sécurité Kaspersky, permettant à un attaquant de potentiellement exploiter un défaut de sécurité non précisé par l'éditeur. L'absence de détails sur la nature exacte des failles laisse planer un doute sur la portée réelle de la menace, mais la criticité potentielle des produits concernés justifie une attention particulière.",
-        "Theme": "#Vulnerabilité #Kaspersky #SécuritéLogicielle #Cyberattaque",
-        "Date": "2026-03-23T07:14:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans Spring AI (17 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0305/",
-        "Resume": "De multiples vulnérabilités critiques ont été identifiées dans la bibliothèque Spring AI, permettant des injections SQL et le contournement des politiques de sécurité. Ces failles menacent directement l'intégrité et la confidentialité des données traitées par les applications utilisant cette technologie. La large adoption de Spring AI dans les architectures modernes confère à cette découverte une portée significative.",
-        "Theme": "#SpringAI #SQLInjection #Cybersecurity #Vulnerability",
-        "Date": "2026-03-23T13:11:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans Mattermost Server (16 janvier 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0052/",
-        "Resume": "De multiples vulnérabilités critiques ont été identifiées dans Mattermost Server, une plateforme de communication d'équipe prisée des entreprises. Ces failles permettent à des attaquants non authentifiés de potentiellement accéder à des données confidentielles, de contourner les mécanismes de sécurité établis et de causer d'autres préjudices non spécifiés. L'exploitation de ces vulnérabilités pourrait avoir des conséquences graves sur la confidentialité et l'intégrité des informations traitées au sein des organisations utilisant Mattermost.",
-        "Theme": "#Vulnérabilité #Mattermost #FuiteDeDonnées #Cybersecurité",
-        "Date": "2026-03-23T07:04:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans Redmine (17 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0306/",
-        "Resume": "De multiples vulnérabilités critiques ont été découvertes dans Redmine, permettant des injections de code à distance (XSS), des contournements de sécurité et d'autres failles. Ces brèches ouvrent la voie à des prises de contrôle potentielles et à l'exécution de code arbitraire sur les instances affectées, menaçant la confidentialité et l'intégrité des données gérées par cet outil de gestion de projet open-source largement utilisé. L'éditeur, bien qu'informé, n'a pas encore publié de correctifs au moment de l'avis, laissant les organisations vulnérables.",
-        "Theme": "#Redmine #XSS #VulnérabilitéCritique #GestionDeProjet #SécuritéApplicative",
-        "Date": "2026-03-23T07:34:00.000Z"
-    },
-    {
-        "Titre": "Vulnérabilité dans Microsoft Edge (17 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0303/",
-        "Resume": "Une vulnérabilité critique, CVE-2026-3909, a été découverte dans Microsoft Edge et est activement exploitée. Elle permet à un attaquant de déclencher un incident de sécurité non divulgué par Microsoft, ce qui représente un risque immédiat pour les utilisateurs. L'exploitation active et le manque de détails sur la nature exacte du problème soulignent la gravité de la situation.",
-        "Theme": "#MicrosoftEdge #Vulnérabilité #ExploitationActive #ZeroDay",
-        "Date": "2026-03-23T07:24:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans les produits Mattermost (16 février 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0173/",
-        "Resume": "De multiples vulnérabilités ont été identifiées dans les produits Mattermost, permettant à des attaquants de causer des dénis de service à distance et d'accéder à des informations confidentielles. Ces failles, non précisément détaillées par l'éditeur, représentent un risque significatif pour les organisations utilisant cette plateforme de collaboration. L'impact potentiel sur la confidentialité et la disponibilité des données nécessite une attention immédiate pour les utilisateurs.",
-        "Theme": "#Mattermost #Vulnérabilité #DDoS #Confidentialité",
-        "Date": "2026-03-23T07:06:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans Xen (17 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0304/",
-        "Resume": "De multiples vulnérabilités critiques ont été découvertes dans Xen, un hyperviseur largement utilisé. Ces failles permettent à des attaquants distants d'obtenir une élévation de privilèges, de causer des dénis de service, et d'accéder à des données confidentielles, impactant ainsi la sécurité des environnements virtualisés.",
-        "Theme": "#Xen #Virtualisation #CVE #ÉlévationDePrivilèges",
-        "Date": "2026-03-23T12:34:00.000Z"
-    },
-    {
-        "Titre": "Vulnérabilité dans Mattermost Server (17 février 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0176/",
-        "Resume": "Une vulnérabilité critique a été identifiée dans Mattermost Server, permettant à des attaquants d'accéder à des informations confidentielles. Cette faille compromet la confidentialité des données traitées par cette plateforme de collaboration populaire utilisée par de nombreuses organisations. La correction rapide est donc essentielle pour prévenir les fuites d'informations sensibles.",
-        "Theme": "#Mattermost #Vulnérabilité #FuiteDeDonnées #Confidentialité",
-        "Date": "2026-03-23T07:32:00.000Z"
-    },
-    {
-        "Titre": "Ordre du jour de la séance plénière du 19 mars 2026",
-        "URL": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-19-mars-2026",
-        "Resume": "L'article présente l'ordre du jour d'une séance plénière de la CNIL prévue pour le 19 mars 2026. Il détaille les sujets qui seront abordés par l'instance de régulation de la protection des données en France. Le contenu est purement informatif et ne révèle aucun incident de cybersécurité ni aucune nouvelle technologie.",
-        "Theme": "#CNIL #ProtectionDesDonnées #VeilleJuridique",
-        "Date": "2026-03-25T07:53:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans les produits VMware (19 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0316/",
-        "Resume": "De multiples vulnérabilités ont été découvertes dans plusieurs produits VMware, affectant leur sécurité sans que les détails exacts du problème ne soient spécifiés par l'éditeur. Ces failles pourraient potentiellement être exploitées par des attaquants pour compromettre la sécurité des environnements virtualisés. L'absence de détails précis sur la nature de ces failles rend l'évaluation des risques plus complexe, mais l'ampleur potentielle des systèmes affectés par des vulnérabilités VMware est généralement élevée.",
-        "Theme": "#VMware #Vulnérabilités #Virtualisation #Cybersecurité",
-        "Date": "2026-03-25T07:59:00.000Z"
-    },
-    {
-        "Titre": "Vulnérabilité dans Python (19 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0317/",
-        "Resume": "Une vulnérabilité critique a été découverte dans Python, permettant un contournement des politiques de sécurité par des attaquants. Cette faille expose potentiellement de nombreuses applications et systèmes utilisant le langage de programmation.",
-        "Theme": "#Python, #Vulnérabilité, #Sécurité, #Contournement",
-        "Date": "2026-03-25T08:34:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans GLPI (18 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0312/",
-        "Resume": "Des vulnérabilités critiques (injection SQL et contournement de politique) ont été découvertes dans GLPI, un logiciel de gestion d'actifs informatiques largement utilisé. Ces failles pourraient permettre à des attaquants non authentifiés d'accéder et de manipuler des données sensibles, ainsi que d'outrepasser les contrôles de sécurité.",
-        "Theme": "#GLPI #SQLi #Vulnerability #PatchManagement",
-        "Date": "2026-03-25T08:14:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans les produits Atlassian (18 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0314/",
-        "Resume": "Des vulnérabilités critiques ont été identifiées dans plusieurs produits Atlassian, permettant notamment l'exécution de code à distance et le déni de service. Ces failles exposent les données sensibles des organisations qui utilisent ces plateformes de collaboration et de développement. Une exploitation réussie pourrait entraîner des compromissions majeures et des interruptions de service étendues.",
-        "Theme": "#Atlassian #RCE #DéniDeService #VulnérabilitéCritique",
-        "Date": "2026-03-25T07:57:00.000Z"
-    },
-    {
-        "Titre": "Règlement sur la gouvernance des données : FAQ sur les organisations altruistes des données reconnues dans l’Union européenne",
-        "URL": "https://www.cnil.fr/fr/reglement-sur-la-gouvernance-des-donnees-faq-sur-les-organisations-altruistes-des-donnees-reconnues",
-        "Resume": "Le Règlement sur la gouvernance des données (DGA) de l'UE établit un nouveau cadre pour les organisations altruistes de données (OAD) qui partagent des données à but non lucratif pour des objectifs d'intérêt général. Cette initiative vise à faciliter la réutilisation des données au sein de l'UE, tout en maintenant un contrôle sur la protection des données personnelles. Les conséquences potentielles incluent une meilleure exploitation des données pour la recherche et l'innovation, mais aussi des risques accrus si la gouvernance n'est pas rigoureusement appliquée.",
-        "Theme": "#GouvernanceDonnées #RGPD #Confidentialité #EUDataGov",
-        "Date": "2026-03-25T07:49:00.000Z"
-    },
-    {
-        "Titre": "Piratage � l'Education nationale, 243 000 agents concern�s",
-        "URL": "https://www.lemondeinformatique.fr/actualites/lire-piratage-a-l-education-nationale-243-000-agents-concernes-99715.html",
-        "Resume": "Une cyberattaque a compromis les données de 243 000 agents du ministère de l'Éducation Nationale en France, révélant une intensification des menaces contre les entités gouvernementales. Les détails de la méthode d'attaque ne sont pas encore publics, mais la nature des données potentiellement exfiltrées pourrait impacter la vie privée des individus et la sécurité nationale.",
-        "Theme": "#Cyberattaque #FuitedeDonnees #SecteurPublic",
-        "Date": "2026-03-25T08:16:00.000Z"
-    },
-    {
-        "Titre": "Vulnérabilité dans les produits Apple (18 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0313/",
-        "Resume": "Une vulnérabilité critique a été identifiée dans les produits Apple, permettant à des attaquants de contourner les mécanismes de sécurité établis. Cette faille pourrait ouvrir la voie à des accès non autorisés et à des actions malveillantes sur les appareils affectés. Les détails spécifiques de l'exploit et les produits concernés sont détaillés dans l'avis du CERT-FR.",
-        "Theme": "#Cybersecurité #Apple #Vulnérabilité #FailleSécurité",
-        "Date": "2026-03-25T07:47:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans les produits VMware (18 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0315/",
-        "Resume": "De multiples vulnérabilités non spécifiées ont été découvertes dans divers produits VMware, permettant à des attaquants de déclencher des problèmes de sécurité. Ces failles menacent la stabilité et l'intégrité des environnements virtualisés critiques.",
-        "Theme": "#VMware #Vulnérabilité #Virtualisation #CyberAttack",
-        "Date": "2026-03-25T08:12:00.000Z"
-    },
-    {
-        "Titre": "Multiples vulnérabilités dans Splunk Universal Forwarder (19 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0318/",
-        "Resume": "De multiples vulnérabilités ont été identifiées dans le logiciel Splunk Universal Forwarder, permettant à un attaquant non authentifié de déclencher un problème de sécurité non précisé. Ces failles, non corrigées par l'éditeur à la date de publication, pourraient affecter l'intégrité et la disponibilité des systèmes collectant des données.",
-        "Theme": "#Splunk #Vulnérabilité #CollecteData",
-        "Date": "2026-03-25T13:43:00.000Z"
+        "Titre": "Vulnérabilité dans les produits Synology (23 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0338/",
+        "Resume": "Une vulnérabilité critique a été identifiée dans plusieurs produits Synology, permettant une exécution de code à distance non authentifiée. Cela expose potentiellement les appareils connectés et les données qu'ils stockent à des prises de contrôle malveillantes. Les utilisateurs sont fortement incités à appliquer les correctifs dès leur publication.",
+        "Theme": "#Synology #RCE #Vulnérabilité",
+        "Date": "2026-03-30T06:37:00.000Z"
     },
     {
         "Titre": "Multiples vulnérabilités dans Ruby on Rails (24 mars 2026)",
@@ -285,6 +89,20 @@
         "Resume": "De multiples vulnérabilités ont été identifiées dans Ruby on Rails, permettant l'exécution de code à distance, des dénis de service et l'altération de données. Ces failles exposent les applications basées sur ce framework à des risques significatifs de compromission.",
         "Theme": "#Rails #Vulnérabilité #RCE",
         "Date": "2026-03-30T06:23:00.000Z"
+    },
+    {
+        "Titre": "[MàJ] Vulnérabilité dans Cisco Catalyst SD-WAN (25 février 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-002/",
+        "Resume": "Une vulnérabilité critique (CVE-2026-20127) a été découverte dans Cisco Catalyst SD-WAN, permettant un contournement de la politique de sécurité. Cisco confirme que cette faille est activement exploitée, représentant un risque immédiat pour les infrastructures.",
+        "Theme": "#Cisco #SDWAN #Faille #Exploitation",
+        "Date": "2026-03-30T06:19:00.000Z"
+    },
+    {
+        "Titre": "Les demandes d'aide face aux cybermenaces explosent en France",
+        "URL": "https://www.lemondeinformatique.fr/actualites/lire-les-demandes-d-aide-face-aux-cybermenaces-explosent-en-france-99756.html",
+        "Resume": "Le GIP Acyma, acteur clé de la cybersécurité en France, observe une explosion des demandes d'aide face aux cybermenaces, touchant aussi bien les entreprises que les particuliers et les collectivités. Cette augmentation significative met en lumière la vulnérabilité croissante des acteurs face à des attaques de plus en plus sophistiquées.",
+        "Theme": "#Cyberattaque #Cybersécurité #France #GIP_Acyma",
+        "Date": "2026-03-30T06:17:00.000Z"
     },
     {
         "Titre": "Multiples vulnérabilités dans les produits VMware (23 mars 2026)",
@@ -301,13 +119,6 @@
         "Date": "2026-03-30T06:11:00.000Z"
     },
     {
-        "Titre": "[MàJ] Vulnérabilité dans Cisco Catalyst SD-WAN (25 février 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-002/",
-        "Resume": "Une vulnérabilité critique (CVE-2026-20127) a été découverte dans Cisco Catalyst SD-WAN, permettant un contournement de la politique de sécurité. Cisco confirme que cette faille est activement exploitée, représentant un risque immédiat pour les infrastructures.",
-        "Theme": "#Cisco #SDWAN #Faille #Exploitation",
-        "Date": "2026-03-30T06:19:00.000Z"
-    },
-    {
         "Titre": "Multiples vulnérabilités dans Roundcube (09 février 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0133/",
         "Resume": "Des vulnérabilités critiques ont été découvertes dans Roundcube, permettant l'exécution de code arbitraire à distance et le contournement des politiques de sécurité. Ces failles exposent potentiellement les utilisateurs et les données gérées par les serveurs Roundcube.",
@@ -315,87 +126,283 @@
         "Date": "2026-03-30T06:01:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans Mattermost Server (17 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0300/",
-        "Resume": "Plusieurs vulnérabilités affectent Mattermost Server, permettant un contournement des politiques de sécurité et d'autres failles non précisées par l'éditeur. Ces failles ouvrent la voie à des accès non autorisés et à des compromissions potentielles des données sur la plateforme collaborative.",
-        "Theme": "#Mattermost #Vulnérabilité #Sécurité #Bypass",
-        "Date": "2026-03-30T06:45:00.000Z"
+        "Titre": "Multiples vulnérabilités dans Splunk Universal Forwarder (19 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0318/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans le logiciel Splunk Universal Forwarder, permettant à un attaquant non authentifié de déclencher un problème de sécurité non précisé. Ces failles, non corrigées par l'éditeur à la date de publication, pourraient affecter l'intégrité et la disponibilité des systèmes collectant des données.",
+        "Theme": "#Splunk #Vulnérabilité #CollecteData",
+        "Date": "2026-03-25T13:43:00.000Z"
     },
     {
-        "Titre": "Telex : L'Europe enqu�te apr�s un piratage de son instance AWS, Apple arr�te le Mac Pro, SAP rach�te Reltio",
-        "URL": "https://www.lemondeinformatique.fr/actualites/lire-telex-l-europe-enquete-apres-un-piratage-de-son-instance-aws-apple-arrete-le-mac-pro-sap-rachete-reltio-99768.html",
-        "Resume": "La Commission européenne enquête sur un piratage de son instance AWS, potentiellement lié à des informations sensibles. Bien que les détails soient limités, un incident de sécurité touchant une institution européenne majeure justifie une attention particulière en raison des implications potentielles en matière de données et de confiance.",
-        "Theme": "#Cloud #AWS #Cyberattaque #Europe",
-        "Date": "2026-03-30T07:07:00.000Z"
+        "Titre": "Vulnérabilité dans Python (19 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0317/",
+        "Resume": "Une vulnérabilité critique a été découverte dans Python, permettant un contournement des politiques de sécurité par des attaquants. Cette faille expose potentiellement de nombreuses applications et systèmes utilisant le langage de programmation.",
+        "Theme": "#Python, #Vulnérabilité, #Sécurité, #Contournement",
+        "Date": "2026-03-25T08:34:00.000Z"
     },
     {
-        "Titre": "Les demandes d'aide face aux cybermenaces explosent en France",
-        "URL": "https://www.lemondeinformatique.fr/actualites/lire-les-demandes-d-aide-face-aux-cybermenaces-explosent-en-france-99756.html",
-        "Resume": "Le GIP Acyma, acteur clé de la cybersécurité en France, observe une explosion des demandes d'aide face aux cybermenaces, touchant aussi bien les entreprises que les particuliers et les collectivités. Cette augmentation significative met en lumière la vulnérabilité croissante des acteurs face à des attaques de plus en plus sophistiquées.",
-        "Theme": "#Cyberattaque #Cybersécurité #France #GIP_Acyma",
-        "Date": "2026-03-30T06:17:00.000Z"
+        "Titre": "Piratage � l'Education nationale, 243 000 agents concern�s",
+        "URL": "https://www.lemondeinformatique.fr/actualites/lire-piratage-a-l-education-nationale-243-000-agents-concernes-99715.html",
+        "Resume": "Une cyberattaque a compromis les données de 243 000 agents du ministère de l'Éducation Nationale en France, révélant une intensification des menaces contre les entités gouvernementales. Les détails de la méthode d'attaque ne sont pas encore publics, mais la nature des données potentiellement exfiltrées pourrait impacter la vie privée des individus et la sécurité nationale.",
+        "Theme": "#Cyberattaque #FuitedeDonnees #SecteurPublic",
+        "Date": "2026-03-25T08:16:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans les produits Microsoft (23 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0341/",
-        "Resume": "Des vulnérabilités multiples ont été identifiées dans divers produits Microsoft, permettant à des attaquants de déclencher des incidents de sécurité non spécifiés. La nature exacte des exploitations et les produits impactés restent flous pour le moment.",
-        "Theme": "#Microsoft #Vulnérabilité #Cybersecurity",
-        "Date": "2026-03-30T07:09:00.000Z"
+        "Titre": "Multiples vulnérabilités dans GLPI (18 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0312/",
+        "Resume": "Des vulnérabilités critiques (injection SQL et contournement de politique) ont été découvertes dans GLPI, un logiciel de gestion d'actifs informatiques largement utilisé. Ces failles pourraient permettre à des attaquants non authentifiés d'accéder et de manipuler des données sensibles, ainsi que d'outrepasser les contrôles de sécurité.",
+        "Theme": "#GLPI #SQLi #Vulnerability #PatchManagement",
+        "Date": "2026-03-25T08:14:00.000Z"
     },
     {
-        "Titre": "Vulnérabilité dans les produits Synology (23 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0338/",
-        "Resume": "Une vulnérabilité critique a été identifiée dans plusieurs produits Synology, permettant une exécution de code à distance non authentifiée. Cela expose potentiellement les appareils connectés et les données qu'ils stockent à des prises de contrôle malveillantes. Les utilisateurs sont fortement incités à appliquer les correctifs dès leur publication.",
-        "Theme": "#Synology #RCE #Vulnérabilité",
-        "Date": "2026-03-30T06:37:00.000Z"
+        "Titre": "Multiples vulnérabilités dans les produits VMware (18 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0315/",
+        "Resume": "De multiples vulnérabilités non spécifiées ont été découvertes dans divers produits VMware, permettant à des attaquants de déclencher des problèmes de sécurité. Ces failles menacent la stabilité et l'intégrité des environnements virtualisés critiques.",
+        "Theme": "#VMware #Vulnérabilité #Virtualisation #CyberAttack",
+        "Date": "2026-03-25T08:12:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans Zabbix (27 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0367/",
-        "Resume": "Plusieurs vulnérabilités critiques ont été identifiées dans Zabbix, une plateforme de supervision très répandue. Ces failles permettent des dénis de service à distance et des contournements de sécurité, exposant les infrastructures surveillées à des risques majeurs.",
-        "Theme": "#Zabbix #Vulnérabilité #Supervision #DoS",
-        "Date": "2026-04-06T06:35:00.000Z"
+        "Titre": "Multiples vulnérabilités dans les produits VMware (19 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0316/",
+        "Resume": "De multiples vulnérabilités ont été découvertes dans plusieurs produits VMware, affectant leur sécurité sans que les détails exacts du problème ne soient spécifiés par l'éditeur. Ces failles pourraient potentiellement être exploitées par des attaquants pour compromettre la sécurité des environnements virtualisés. L'absence de détails précis sur la nature de ces failles rend l'évaluation des risques plus complexe, mais l'ampleur potentielle des systèmes affectés par des vulnérabilités VMware est généralement élevée.",
+        "Theme": "#VMware #Vulnérabilités #Virtualisation #Cybersecurité",
+        "Date": "2026-03-25T07:59:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans les produits NetApp (27 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0363/",
-        "Resume": "De multiples vulnérabilités ont été identifiées dans les produits NetApp, permettant à des attaquants distants de causer des dénis de service, de compromettre la confidentialité et l'intégrité des données. Ces failles représentent un risque significatif pour les organisations utilisant ces solutions de stockage.",
-        "Theme": "#NetApp #Stockage #Vulnérabilités #DoS",
-        "Date": "2026-04-06T06:19:00.000Z"
+        "Titre": "Multiples vulnérabilités dans les produits Atlassian (18 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0314/",
+        "Resume": "Des vulnérabilités critiques ont été identifiées dans plusieurs produits Atlassian, permettant notamment l'exécution de code à distance et le déni de service. Ces failles exposent les données sensibles des organisations qui utilisent ces plateformes de collaboration et de développement. Une exploitation réussie pourrait entraîner des compromissions majeures et des interruptions de service étendues.",
+        "Theme": "#Atlassian #RCE #DéniDeService #VulnérabilitéCritique",
+        "Date": "2026-03-25T07:57:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans les produits Siemens (27 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0364/",
-        "Resume": "Des vulnérabilités multiples ont été identifiées dans les produits Siemens, permettant à des attaquants de causer un déni de service à distance. Ces failles menacent la disponibilité des systèmes industriels critiques gérés par ces équipements. L'absence de patch immédiat accentue le risque.",
-        "Theme": "#Siemens #IoT #ICS #DoS",
-        "Date": "2026-04-06T07:11:00.000Z"
+        "Titre": "Ordre du jour de la séance plénière du 19 mars 2026",
+        "URL": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-19-mars-2026",
+        "Resume": "L'article présente l'ordre du jour d'une séance plénière de la CNIL prévue pour le 19 mars 2026. Il détaille les sujets qui seront abordés par l'instance de régulation de la protection des données en France. Le contenu est purement informatif et ne révèle aucun incident de cybersécurité ni aucune nouvelle technologie.",
+        "Theme": "#CNIL #ProtectionDesDonnées #VeilleJuridique",
+        "Date": "2026-03-25T07:53:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans le noyau Linux de Red Hat (27 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0370/",
-        "Resume": "Plusieurs failles critiques ont été découvertes dans le noyau Linux utilisé par Red Hat, permettant l'exécution de code arbitraire, l'élévation de privilèges et la compromission de données. Ces vulnérabilités, si exploitées, peuvent avoir des conséquences désastreuses sur la sécurité des systèmes.",
-        "Theme": "#Linux #Vulnérabilité #RedHat #ExécutionCode",
-        "Date": "2026-04-06T06:25:00.000Z"
+        "Titre": "Règlement sur la gouvernance des données : FAQ sur les organisations altruistes des données reconnues dans l’Union européenne",
+        "URL": "https://www.cnil.fr/fr/reglement-sur-la-gouvernance-des-donnees-faq-sur-les-organisations-altruistes-des-donnees-reconnues",
+        "Resume": "Le Règlement sur la gouvernance des données (DGA) de l'UE établit un nouveau cadre pour les organisations altruistes de données (OAD) qui partagent des données à but non lucratif pour des objectifs d'intérêt général. Cette initiative vise à faciliter la réutilisation des données au sein de l'UE, tout en maintenant un contrôle sur la protection des données personnelles. Les conséquences potentielles incluent une meilleure exploitation des données pour la recherche et l'innovation, mais aussi des risques accrus si la gouvernance n'est pas rigoureusement appliquée.",
+        "Theme": "#GouvernanceDonnées #RGPD #Confidentialité #EUDataGov",
+        "Date": "2026-03-25T07:49:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (27 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0371/",
-        "Resume": "De multiples vulnérabilités ont été identifiées dans le noyau Linux d'Ubuntu, permettant des attaques d'exécution de code arbitraire, d'élévation de privilèges et de vol de données. L'impact potentiel est significatif car ces failles affectent une distribution Linux largement utilisée.",
-        "Theme": "#Linux #Vulnérabilité #Kernel #Ubuntu",
-        "Date": "2026-04-06T06:05:00.000Z"
+        "Titre": "Vulnérabilité dans les produits Apple (18 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0313/",
+        "Resume": "Une vulnérabilité critique a été identifiée dans les produits Apple, permettant à des attaquants de contourner les mécanismes de sécurité établis. Cette faille pourrait ouvrir la voie à des accès non autorisés et à des actions malveillantes sur les appareils affectés. Les détails spécifiques de l'exploit et les produits concernés sont détaillés dans l'avis du CERT-FR.",
+        "Theme": "#Cybersecurité #Apple #Vulnérabilité #FailleSécurité",
+        "Date": "2026-03-25T07:47:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans le noyau Linux de SUSE (27 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0369/",
-        "Resume": "De multiples vulnérabilités ont été identifiées dans le noyau Linux de SUSE, ouvrant la porte à des attaques par exécution de code arbitraire, vol de données et corruption d'informations. Les utilisateurs de SUSE sont directement concernés par ces failles critiques.",
-        "Theme": "#Linux #SUSE #Vulnérabilité #ExécutionCode",
-        "Date": "2026-04-06T06:27:00.000Z"
+        "Titre": "Multiples vulnérabilités dans Redmine (17 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0306/",
+        "Resume": "Plusieurs vulnérabilités critiques ont été identifiées dans Redmine, une plateforme de gestion de projets open-source populaire. Ces failles permettent des injections de code à distance, des contournements de sécurité et des actions non spécifiées par l'éditeur, ouvrant la voie à des compromissions significatives.",
+        "Theme": "#Redmine #Vulnérabilité #XSS #SécuritéApplicative",
+        "Date": "2026-03-25T01:07:00.000Z"
     },
     {
-        "Titre": "Multiples vulnérabilités dans Spring AI (27 mars 2026)",
-        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0365/",
-        "Resume": "De multiples vulnérabilités ont été identifiées dans Spring AI, permettant notamment l'exécution de code à distance, le SSRF et le contournement de sécurité. Ces failles pourraient être exploitées par des attaquants pour compromettre des applications basées sur cette librairie.",
-        "Theme": "#SpringAI #Vulnérabilité #CodeExecution #SSRF",
-        "Date": "2026-04-06T07:03:00.000Z"
+        "Titre": "Multiples vulnérabilités dans les produits Mattermost (16 février 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0173/",
+        "Resume": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost, une plateforme de collaboration. Ces failles permettent à un attaquant de mener des attaques par déni de service à distance et d'accéder à des données confidentielles. L'éditeur n'a pas encore spécifié l'étendue exacte de l'un des problèmes de sécurité affectant sa solution.",
+        "Theme": "#Mattermost #Vulnérabilité #DDoS #FuiteDeDonnées",
+        "Date": "2026-03-25T00:58:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans les produits Microsoft (16 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0299/",
+        "Resume": "Des vulnérabilités multiples ont été découvertes dans divers produits Microsoft, permettant à des attaquants de déclencher des problèmes de sécurité non spécifiés, potentiellement graves, sans préavis par l'éditeur. L'ampleur et la nature exacte des failles restent à clarifier, mais la réputation de Microsoft et la diffusion de ses produits impliquent un risque élevé.",
+        "Theme": "#Microsoft #Vulnérabilités #Cyberattaques #SécuritéLogicielle",
+        "Date": "2026-03-25T00:54:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans Xen (17 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0304/",
+        "Resume": "De multiples vulnérabilités critiques ont été découvertes dans Xen, un hyperviseur largement utilisé dans les environnements cloud et serveur. Ces failles permettent à des attaquants distants d'obtenir une élévation de privilèges, de déclencher des dénis de service et de compromettre la confidentialité des données. Les conséquences potentielles pour les infrastructures virtualisées sont majeures, allant de la perturbation des services à l'exfiltration d'informations sensibles.",
+        "Theme": "#Xen #Virtualisation #ElevatedPrivileges #DenialOfService #DataBreach",
+        "Date": "2026-03-24T00:38:00.000Z"
+    },
+    {
+        "Titre": "Vulnérabilité dans les produits Microsoft (17 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0307/",
+        "Resume": "Une vulnérabilité critique a été découverte dans plusieurs produits Microsoft, permettant à un attaquant de compromettre la sécurité sans que la nature exacte de l'exploitation soit précisée par l'éditeur. L'ampleur et la criticité de cette faille, affectant potentiellement un large écosystème, justifient une attention immédiate pour le déploiement de correctifs.",
+        "Theme": "#Microsoft #Vulnérabilité #ZeroDay #CyberSécurité",
+        "Date": "2026-03-24T00:36:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans Spring AI (17 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0305/",
+        "Resume": "De multiples vulnérabilités critiques ont été identifiées dans la bibliothèque Spring AI, permettant des injections SQL et le contournement des politiques de sécurité. Ces failles menacent directement l'intégrité et la confidentialité des données traitées par les applications utilisant cette technologie. La large adoption de Spring AI dans les architectures modernes confère à cette découverte une portée significative.",
+        "Theme": "#SpringAI #SQLInjection #Cybersecurity #Vulnerability",
+        "Date": "2026-03-23T13:11:00.000Z"
+    },
+    {
+        "Titre": "Vulnérabilité dans Microsoft Edge (17 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0303/",
+        "Resume": "Une vulnérabilité critique (CVE-2026-3909) dans Microsoft Edge, permettant une exploitation active par des attaquants, a été publiquement documentée. Bien que la nature exacte du problème de sécurité ne soit pas encore détaillée par l'éditeur, son exploitation en cours la rend immédiatement pertinente pour les utilisateurs et les organisations.",
+        "Theme": "#MicrosoftEdge #CVE #ExploitationActive #ZeroDay #Cybersécurité",
+        "Date": "2026-03-23T07:38:00.000Z"
+    },
+    {
+        "Titre": "Vulnérabilité dans Mattermost Server (17 février 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0176/",
+        "Resume": "Une vulnérabilité critique a été identifiée dans Mattermost Server, permettant à des attaquants d'accéder à des informations confidentielles. Cette faille compromet la confidentialité des données traitées par cette plateforme de collaboration populaire utilisée par de nombreuses organisations. La correction rapide est donc essentielle pour prévenir les fuites d'informations sensibles.",
+        "Theme": "#Mattermost #Vulnérabilité #FuiteDeDonnées #Confidentialité",
+        "Date": "2026-03-23T07:32:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans les produits Kaspersky (17 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0301/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans les produits de sécurité Kaspersky, permettant à un attaquant de potentiellement exploiter un défaut de sécurité non précisé par l'éditeur. L'absence de détails sur la nature exacte des failles laisse planer un doute sur la portée réelle de la menace, mais la criticité potentielle des produits concernés justifie une attention particulière.",
+        "Theme": "#Vulnerabilité #Kaspersky #SécuritéLogicielle #Cyberattaque",
+        "Date": "2026-03-23T07:14:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans Mattermost Server (16 janvier 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0052/",
+        "Resume": "De multiples vulnérabilités critiques ont été identifiées dans Mattermost Server, une plateforme de communication d'équipe prisée des entreprises. Ces failles permettent à des attaquants non authentifiés de potentiellement accéder à des données confidentielles, de contourner les mécanismes de sécurité établis et de causer d'autres préjudices non spécifiés. L'exploitation de ces vulnérabilités pourrait avoir des conséquences graves sur la confidentialité et l'intégrité des informations traitées au sein des organisations utilisant Mattermost.",
+        "Theme": "#Vulnérabilité #Mattermost #FuiteDeDonnées #Cybersecurité",
+        "Date": "2026-03-23T07:04:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans Microsoft Windows (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0271/",
+        "Resume": "Microsoft a publié des correctifs pour plusieurs vulnérabilités critiques dans Windows, dont certaines permettent l'exécution de code arbitraire à distance, l'élévation de privilèges et le déni de service. Ces failles pourraient être exploitées par des attaquants pour compromettre des systèmes sans intervention utilisateur, causant des perturbations importantes et des pertes de données. La nature critique de ces vulnérabilités souligne l'importance d'une application immédiate des mises à jour.",
+        "Theme": "Tech",
+        "Date": "2026-03-17T08:42:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans VMware Tanzu (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0266/",
+        "Resume": "De multiples vulnérabilités ont été découvertes dans VMware Tanzu, permettant potentiellement à un attaquant d'exploiter un \"problème de sécurité non spécifié\" pour compromettre la plateforme. L'avis du CERT-FR souligne la nécessité d'une vigilance accrue quant aux impacts potentiels sur la sécurité.",
+        "Theme": "#VMware #Tanzu #Vulnérabilité #CloudNative",
+        "Date": "2026-03-17T08:38:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans les produits Fortinet (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0265/",
+        "Resume": "De multiples vulnérabilités critiques ont été identifiées dans les produits Fortinet, permettant l'exécution de code arbitraire, l'élévation de privilèges et le vol de données. La vulnérabilité CVE-2025-66178 est particulièrement préoccupante. Ces failles exposent un grand nombre d'entreprises à des risques de compromission importants.",
+        "Theme": "#Fortinet #Vulnérabilité #ExécutionDeCode #ÉlévationDePrivilèges",
+        "Date": "2026-03-17T08:36:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans les produits Adobe (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0264/",
+        "Resume": "Des vulnérabilités critiques ont été identifiées dans plusieurs produits Adobe, permettant potentiellement à des attaquants de prendre le contrôle à distance, d'élever leurs privilèges ou de provoquer des dénis de service. Ces failles exposent les utilisateurs à des risques d'exécution de code arbitraire et d'atteinte à l'intégrité de leurs systèmes. La correction de ces failles est impérative pour sécuriser les environnements professionnels et personnels utilisant ces logiciels.",
+        "Theme": "#Adobe #Vulnérabilité #ExécutionDeCode #DéniDeService",
+        "Date": "2026-03-17T08:32:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans Curl (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0269/",
+        "Resume": "De multiples vulnérabilités ont été découvertes dans l'outil de transfert de données Curl, permettant à des attaquants de causer des dénis de service à distance, de compromettre la confidentialité des données et de contourner les politiques de sécurité. Ces failles affectent potentiellement une large gamme d'applications et de services qui dépendent de Curl pour leurs communications. La correction rapide de ces vulnérabilités est cruciale pour prévenir des exploitations généralisées.",
+        "Theme": "#Curl #Vulnérabilités #Cybersecurity #RessourceCritique",
+        "Date": "2026-03-17T08:08:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans les produits Microsoft (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0274/",
+        "Resume": "De multiples vulnérabilités critiques ont été identifiées dans des produits Microsoft, permettant des exécutions de code à distance, des élévations de privilèges et des dénis de service. Ces failles, si exploitées, pourraient entraîner des compromissions majeures des systèmes et des données. La grande surface d'attaque et la criticité des accès potentiels en font une alerte importante pour les organisations utilisant des environnements Microsoft.",
+        "Theme": "#Microsoft #Vulnérabilité #RCE #PrivilegeEscalation #DoS",
+        "Date": "2026-03-16T20:50:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans Microsoft .Net (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0272/",
+        "Resume": "De multiples vulnérabilités ont été identifiées dans le framework Microsoft .NET, permettant à des attaquants d'obtenir des privilèges élevés et de mener des attaques par déni de service à distance. Ces failles peuvent potentiellement affecter une large gamme d'applications développées avec .NET, menaçant ainsi la sécurité et la disponibilité des systèmes d'information. La correction rapide est donc essentielle pour prévenir des exploitations généralisées.",
+        "Theme": "#DotNet #Cybersecurity #Vulnerability #ElevationOfPrivilege #DenialOfService",
+        "Date": "2026-03-16T19:56:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans Mozilla Firefox (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0267/",
+        "Resume": "Des vulnérabilités critiques ont été découvertes dans Mozilla Firefox, permettant à des attaquants d'exécuter du code arbitraire et de contourner les politiques de sécurité. L'éditeur n'a pas spécifié la nature exacte de tous les problèmes, laissant une incertitude sur l'étendue des risques. L'application de correctifs rapides est impérative pour éviter des compromissions généralisées.",
+        "Theme": "#Firefox #Vulnérabilité #ExécutionDeCode #SécuritéWeb",
+        "Date": "2026-03-16T14:56:00.000Z"
+    },
+    {
+        "Titre": "Panorama de la cybermenace 2025 (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-002/",
+        "Resume": "Le rapport \"Panorama de la cybermenace 2025\" du CERT-SSI détaille l'érosion des frontières entre acteurs étatiques et cybercriminels, rendant l'imputation des attaques plus complexe. L'utilisation détournée d'outils et services légitimes par des acteurs malveillants est une pratique courante, aggravant le paysage de la menace. Ces évolutions stratégiques, favorisant l'anonymat et la dissémination, représentent un défi majeur pour la cybersécurité.",
+        "Theme": "#CyberMenaces #Attribution #CyberCriminalité #ActeursEtatiques",
+        "Date": "2026-03-16T14:50:00.000Z"
+    },
+    {
+        "Titre": "Vulnérabilité dans Ivanti Desktop and Server Management (DSM) (11 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0263/",
+        "Resume": "Une vulnérabilité critique a été identifiée dans Ivanti Desktop and Server Management (DSM), permettant à un attaquant d'obtenir des privilèges élevés sur les systèmes affectés. Cette élévation de privilèges ouvre la voie à des prises de contrôle système complètes, à l'exfiltration de données sensibles ou à la propagation de malwares.",
+        "Theme": "#Ivanti #DSM #ÉlévationDePrivilèges #Cybersecurité #Vulnerability",
+        "Date": "2026-03-16T14:48:00.000Z"
+    },
+    {
+        "Titre": "Vulnérabilité dans Google Chrome (16 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0297/",
+        "Resume": "Une vulnérabilité critique (CVE-2026-3909) a été découverte dans Google Chrome et est activement exploitée par des attaquants. Cette faille permet la déclenchement d'un \"problème de sécurité non spécifié\", laissant potentiellement la porte ouverte à diverses actions malveillantes. L'éditeur a déjà publié un correctif, rendant la mise à jour urgente pour tous les utilisateurs.",
+        "Theme": "#Chrome #ZeroDay #ExploitationActive #Vulnerability",
+        "Date": "2026-03-16T14:32:00.000Z"
+    },
+    {
+        "Titre": "Vulnérabilité dans OpenSSL (16 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0296/",
+        "Resume": "Une vulnérabilité critique a été identifiée dans OpenSSL, la bibliothèque cryptographique open-source largement utilisée. Si les détails précis ne sont pas spécifiés, elle permet à un attaquant de causer un problème de sécurité, potentiellement lié à la compromission de données ou à des attaques par déni de service, affectant potentiellement une large partie de l'infrastructure internet.",
+        "Theme": "#OpenSSL #Vulnérabilité #Cryptographie #SécuritéWeb",
+        "Date": "2026-03-16T14:30:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans Microsoft Edge (16 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0298/",
+        "Resume": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge, dont une (CVE-2026-3910) activement exploitée, permettant le contournement des politiques de sécurité. Ces failles ouvrent la porte à des attaques non spécifiées par l'éditeur, compromettant la sécurité des utilisateurs.",
+        "Theme": "#MicrosoftEdge #Vulnérabilité #ExploitationActive #ZéroDay",
+        "Date": "2026-03-16T14:28:00.000Z"
+    },
+    {
+        "Titre": "Bulletin d'actualité CERTFR-2026-ACT-011 (16 mars 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-011/",
+        "Resume": "Le CERT-FR publie un bulletin synthétisant les vulnérabilités significatives de la semaine du 16 mars 2026, rappelant l'importance d'une analyse de risques pour prioriser les correctifs. Il ne détaille pas les vulnérabilités spécifiques mais insiste sur la nécessité d'une veille proactive. L'objectif est de sensibiliser les organisations à l'importance d'évaluer et traiter les menaces selon leur criticité.",
+        "Theme": "#VeilleCyber #GestionDesRisques #Vulnérabilités",
+        "Date": "2026-03-16T14:26:00.000Z"
+    },
+    {
+        "Titre": "INTERPOL Dismantles 45,000 Malicious IPs, Arrests 94 in Global Cybercrime",
+        "URL": "https://thehackernews.com/2026/03/interpol-dismantles-45000-malicious-ips.html",
+        "Resume": "INTERPOL a démantelé 45 000 adresses IP et serveurs malveillants utilisés pour des campagnes de phishing, de malwares et de ransomwares, résultant en 94 arrestations dans le cadre d'une opération internationale impliquant 72 pays. Cette action vise à perturber les réseaux criminels et à protéger les victimes.",
+        "Theme": "#Cybercriminalité #INTERPOL #OpérationInternationale #Phishing #Ransomware",
+        "Date": "2026-03-16T14:21:00.000Z"
+    },
+    {
+        "Titre": "Why Security Validation Is Becoming Agentic",
+        "URL": "https://thehackernews.com/2026/03/why-security-validation-is-becoming.html",
+        "Resume": "Cet article aborde la problématique de la validation de la sécurité dans les organisations complexes, où de multiples outils disparates (BAS, pentests, scanners) fournissent des vues fragmentées. Il propose une approche \"agentic\" pour une validation plus intégrée et proactive. L'enjeu est d'améliorer la visibilité et l'efficacité de la posture de sécurité.",
+        "Theme": "#Cybersecurity #SecurityValidation #AttackSurfaceManagement",
+        "Date": "2026-03-16T14:20:00.000Z"
+    },
+    {
+        "Titre": "ClickFix Campaigns Spread MacSync macOS Infostealer via Fake AI Tool Installers",
+        "URL": "https://thehackernews.com/2026/03/clickfix-campaigns-spread-macsync-macos.html",
+        "Resume": "Des campagnes de phishing, nommées \"ClickFix\", distribuent un logiciel malveillant baptisé MacSync sur macOS. Ce dernier vole des informations sensibles en exploitant l'interaction de l'utilisateur, qui est incité à copier-coller et exécuter des commandes, notamment via de fausses installations d'outils d'IA. L'absence de recours à des exploits traditionnels rend cette méthode particulièrement insidieuse.",
+        "Theme": "#MacSync #macOS #Infostealer #Phishing #SocialEngineering",
+        "Date": "2026-03-16T13:49:00.000Z"
+    },
+    {
+        "Titre": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
+        "URL": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+        "Resume": "Deux failles critiques découvertes dans la plateforme d'automatisation n8n permettent l'exécution de code à distance et l'exposition d'identifiants stockés. Ces vulnérabilités, désormais corrigées, pourraient avoir des conséquences graves sur la sécurité des données et des systèmes utilisant n8n.",
+        "Theme": "#RCE #n8n #VulnérabilitéCritique #Cybersecurity",
+        "Date": "2026-03-16T10:43:00.000Z"
+    },
+    {
+        "Titre": "Meta Disables 150K Accounts Linked to Southeast Asia Scam Centers in Global Crackdown",
+        "URL": "https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html",
+        "Resume": "Meta a démantelé plus de 150 000 comptes liés à des centres d'arnaque en Asie du Sud-Est lors d'une opération mondiale conjointe avec plusieurs pays. Cette action a conduit à 21 arrestations en Thaïlande, soulignant l'ampleur et la collaboration internationale dans la lutte contre la cybercriminalité. L'opération vise à perturber les réseaux frauduleux opérant via les plateformes de Meta.",
+        "Theme": "#Cybercriminalité #Fraude #OpérationCoordonnée #AsiDuSudEst",
+        "Date": "2026-03-13T13:05:00.000Z"
+    },
+    {
+        "Titre": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
+        "URL": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
+        "Resume": "**Des failles critiques découvertes dans SAP :** SAP a publié des correctifs pour deux vulnérabilités critiques (CVSS 9.8 et 9.1) affectant son application \"Quotation Management Insurance\" (FS-QUO), permettant l'exécution de code arbitraire. Ces failles représentent un risque sérieux pour les systèmes SAP potentiellement exposés.",
+        "Theme": "#SAP #ZeroDay #RCE #Cyberattack",
+        "Date": "2026-03-13T12:41:00.000Z"
     }
 ]
