@@ -1,5 +1,12 @@
 [
     {
+        "Titre": "Vulnérabilité dans Microsoft Azure Linux (02 avril 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0389/",
+        "Resume": "Une vulnérabilité critique a été découverte dans Microsoft Azure Linux, permettant à des attaquants de causer des problèmes de sécurité non spécifiés. Bien que le CERT-FR ne détaille pas la nature exacte des risques, le fait qu'elle touche une plateforme cloud majeure comme Azure et qu'elle soit non corrigée à ce jour la rend potentiellement dangereuse.",
+        "Theme": "#Azure #Cloud #Vulnérabilité #Microsoft",
+        "Date": "2026-04-13T06:25:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans OpenSSH (02 avril 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0391/",
         "Resume": "De multiples vulnérabilités critiques ont été identifiées dans OpenSSH, permettant potentiellement l'exécution de code arbitraire à distance et le contournement des politiques de sécurité. Ces failles affectent un composant fondamental de l'infrastructure réseau mondiale.",
