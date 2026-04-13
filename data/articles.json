@@ -1,5 +1,12 @@
 [
     {
+        "Titre": "Multiples vulnérabilités dans les produits Netgate (02 avril 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0387/",
+        "Resume": "Plusieurs vulnérabilités ont été identifiées dans les produits Netgate, permettant l'exécution de code à distance et des injections XSS. Ces failles pourraient compromettre la sécurité des infrastructures utilisant ces équipements.",
+        "Theme": "#Netgate #Vulnérabilité #ExécutionCode #XSS",
+        "Date": "2026-04-13T06:03:00.000Z"
+    },
+    {
         "Titre": "Vulnérabilité dans Roundcube (30 mars 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0373/",
         "Resume": "Une faille critique dans Roundcube permet le contournement des politiques de sécurité, exposant potentiellement les données des utilisateurs et les configurations des serveurs de messagerie. Cette vulnérabilité ouvre la porte à des attaques ciblées et à la compromission d'infrastructures.",
