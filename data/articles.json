@@ -1,5 +1,12 @@
 [
     {
+        "Titre": "Multiples vulnérabilités dans VMware Tanzu (03 avril 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0394/",
+        "Resume": "De multiples vulnérabilités ont été découvertes dans VMware Tanzu, permettant à des attaquants de causer des problèmes de sécurité non spécifiés. L'éditeur est appelé à réagir.",
+        "Theme": "#VMware #Tanzu #Vulnérabilité #Cloud",
+        "Date": "2026-04-13T06:27:00.000Z"
+    },
+    {
         "Titre": "Vulnérabilité dans Microsoft Azure Linux (02 avril 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0389/",
         "Resume": "Une vulnérabilité critique a été découverte dans Microsoft Azure Linux, permettant à des attaquants de causer des problèmes de sécurité non spécifiés. Bien que le CERT-FR ne détaille pas la nature exacte des risques, le fait qu'elle touche une plateforme cloud majeure comme Azure et qu'elle soit non corrigée à ce jour la rend potentiellement dangereuse.",
