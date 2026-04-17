@@ -439,5 +439,12 @@
         "Resume": "Plusieurs vulnérabilités ont été identifiées dans les produits Netgate, permettant l'exécution de code à distance et des injections XSS. Ces failles pourraient compromettre la sécurité des infrastructures utilisant ces équipements.",
         "Theme": "#Netgate #Vulnérabilité #ExécutionCode #XSS",
         "Date": "2026-04-13T06:03:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans les produits Cisco (02 avril 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0388/",
+        "Resume": "De multiples vulnérabilités critiques ont été découvertes dans divers produits Cisco, permettant potentiellement l'exécution de code à distance, l'élévation de privilèges et la compromission de données. Ces failles représentent un risque significatif pour les infrastructures réseau utilisant les équipements Cisco.",
+        "Theme": "#Cisco #Vulnérabilités #Réseau #ExécutionCode #Confidentialité",
+        "Date": "2026-04-17T08:46:00.000Z"
     }
 ]
