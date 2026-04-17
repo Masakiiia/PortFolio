@@ -467,5 +467,12 @@
         "Resume": "Google a corrigé deux failles critiques dans les dernières versions de Chrome, permettant potentiellement une exécution de code à distance. Ces vulnérabilités touchaient les utilisateurs de Windows, macOS et Linux.",
         "Theme": "#Chrome #Vulnérabilité #Cybersecurité",
         "Date": "2026-04-17T09:08:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans le noyau Linux de Red Hat (03 avril 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0396/",
+        "Resume": "Plusieurs vulnérabilités critiques ont été identifiées dans le noyau Linux de Red Hat, permettant notamment des élévations de privilèges, des dénis de service à distance et des atteintes à la confidentialité. Ces failles exposent directement les systèmes utilisant ce noyau à des attaques potentiellement dévastatrices.",
+        "Theme": "#Linux #Kernel #PrivEsc #DoS",
+        "Date": "2026-04-17T09:10:00.000Z"
     }
 ]
