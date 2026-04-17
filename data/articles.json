@@ -441,6 +441,13 @@
         "Date": "2026-04-13T06:03:00.000Z"
     },
     {
+        "Titre": "Multiples vulnérabilités dans Belden NetModule Router Software (02 avril 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0390/",
+        "Resume": "Des vulnérabilités multiples ont été découvertes dans le logiciel des routeurs Belden NetModule. Ces failles permettent potentiellement à un attaquant de réaliser une exécution de code à distance et un déni de service, menaçant la disponibilité et l'intégrité des réseaux.",
+        "Theme": "#Routeur #Vulnérabilité #RCE #DoS",
+        "Date": "2026-04-17T09:06:00.000Z"
+    },
+    {
         "Titre": "Multiples vulnérabilités dans les produits Cisco (02 avril 2026)",
         "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0388/",
         "Resume": "De multiples vulnérabilités critiques ont été découvertes dans divers produits Cisco, permettant potentiellement l'exécution de code à distance, l'élévation de privilèges et la compromission de données. Ces failles représentent un risque significatif pour les infrastructures réseau utilisant les équipements Cisco.",
