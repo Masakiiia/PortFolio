@@ -446,5 +446,12 @@
         "Resume": "De multiples vulnérabilités critiques ont été découvertes dans divers produits Cisco, permettant potentiellement l'exécution de code à distance, l'élévation de privilèges et la compromission de données. Ces failles représentent un risque significatif pour les infrastructures réseau utilisant les équipements Cisco.",
         "Theme": "#Cisco #Vulnérabilités #Réseau #ExécutionCode #Confidentialité",
         "Date": "2026-04-17T08:46:00.000Z"
+    },
+    {
+        "Titre": "Multiples vulnérabilités dans les produits IBM (03 avril 2026)",
+        "URL": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0395/",
+        "Resume": "Plusieurs vulnérabilités critiques ont été identifiées dans les produits IBM, permettant l'exécution de code à distance, l'élévation de privilèges et des dénis de service. Ces failles représentent un risque significatif pour les organisations utilisant ces solutions.",
+        "Theme": "#IBM #Vulnérabilité #RCE #PrivilegeEscalation",
+        "Date": "2026-04-17T08:54:00.000Z"
     }
 ]
