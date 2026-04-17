@@ -460,5 +460,12 @@
         "Resume": "Plusieurs vulnérabilités critiques ont été identifiées dans les produits IBM, permettant l'exécution de code à distance, l'élévation de privilèges et des dénis de service. Ces failles représentent un risque significatif pour les organisations utilisant ces solutions.",
         "Theme": "#IBM #Vulnérabilité #RCE #PrivilegeEscalation",
         "Date": "2026-04-17T08:54:00.000Z"
+    },
+    {
+        "Titre": "Deux failles critiques corrig�es dans Chrome 147",
+        "URL": "https://www.lemondeinformatique.fr/actualites/lire-deux-failles-critiques-corrigees-dans-chrome-147-99891.html",
+        "Resume": "Google a corrigé deux failles critiques dans les dernières versions de Chrome, permettant potentiellement une exécution de code à distance. Ces vulnérabilités touchaient les utilisateurs de Windows, macOS et Linux.",
+        "Theme": "#Chrome #Vulnérabilité #Cybersecurité",
+        "Date": "2026-04-17T09:08:00.000Z"
     }
 ]
